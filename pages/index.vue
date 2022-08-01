@@ -3,7 +3,7 @@
     <title>
         ProductList 
     </title>
-    <h1>// Product Card //</h1>
+    <h1>// Product Cart //</h1>
     <div>
         <form>
             <div>
@@ -107,16 +107,18 @@ export default {
           this.isEdit = true;
           this.indexEdit = index ;
         },
-        userpro(userName){
-             $('.choice_form').change(function(evt){
-
-        var filter = $(':input:checked,select').map(function(index, el) {
-            return "." + el.value;
-        }).toArray().join("");
-
-        $(".vis-products").hide().filter(filter).show();
-
-    });
+        userFindByName(userName){
+            console.log(userName);
+            this.userFound = this.allUserData.filter((e) => {
+                // if(e.name == userName)
+                if(e.pName.startsWith(userName)){
+                    console.log(e);
+                    // if(e.name.startsWith(userName))
+                    return e;
+                    // alert("user Found" + e.firstName+ ""+e.lastName);
+                }
+            });
+    
       
         },
     }
@@ -131,8 +133,8 @@ input {
 
 body {
   margin: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 80vw;
+  height: 80vh;
   background: #ecf0f3;
   display: flex;
   align-items: center;
