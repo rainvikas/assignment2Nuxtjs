@@ -3,31 +3,30 @@
     <title>
         ProductList 
     </title>
-    <h1>Product Card </h1>
+    <h1>// Product Card //</h1>
     <div>
-        <form action="">
+        <form>
             <div>
-                <label for="pName">Product Name</label>
+                <label for="pName">Product Name: </label>
                 <input type="text" v-model="formData.pName" name="pName" id="pName">
             </div>
             <div>
-                <label for="price">Product Price</label>
+                <label for="price">Product Price: </label>
                 <input type="text" v-model="formData.price" name="pName" id="price">
             </div>
             <div>
-                <label for="category">Product Category</label>
+                <label for="category">Product Category: </label>
                 <input type="text" v-model="formData.category" name="pName" id="category">
             </div>
             <div>
-                <label for="color">Product Color</label>
+                <label for="color">Product Color: </label>
                 <input type="text" v-model="formData.color" name="pName" id="color">
             </div>
             <div>
-                <button type="submit" @click="addpro">Add Product</button>
-                <button type="reset">Reset</button>
+                <button type="submit" @click="addpro">Submit</button>
             </div>
         </form>
-        <table border="4">
+        <table border="5">
             <tr>
                 <td>Product ID</td>
                 <td>Product Name </td>
@@ -48,7 +47,7 @@
             </tr>
         </table>
         <div>
-            <label for="searchPro">Search Product </label>
+            <label for="searchPro">Filter Product: </label>
             <input type="text" name="searchPro" id="searchPro">
             <button type="search" @click="searchPro">Search</button>
         </div>
@@ -106,26 +105,15 @@ export default {
           this.indexEdit = index ;
         },
         userpro(userName){
-            // user1 = this.userName
-            // if(this.allUserData.filter(e => e.firstName == userName})){
-            //     alert("user Found" + e.firstName+ ""+e.lastName);
-            // }
-            console.log(userName);
-            this.userFound = this.arr.filter((e) => {
-                if(e.pName == userName){
-                    // this.userFound.push(e);
-                    console.log(e);
-                    return e;
-                    // alert("user Found" + e.firstName+ ""+e.lastName);
-                }
-                // else{
-                // alert("user not found");
-                // }
-                // console.log(this.userFind);
-            });
-            // console.log(find1);
-            console.log(this.userFound);
+      
         },
     }
 }
 </script>
+
+<style scoped>
+div {
+    background-color: rgb(205, 222, 135);
+    text-align: center;
+}
+</style>
