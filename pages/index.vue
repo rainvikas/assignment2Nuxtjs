@@ -12,7 +12,7 @@
             </div>
             <div>
                 <label for="price">Product Price: </label>
-                <input type="text" v-model="formData.price" name="pName" id="price">
+                <input type="Number" v-model="formData.price" name="pName" id="price" >
             </div>
             <div>
                 <label for="category">Product Category: </label>
@@ -47,7 +47,7 @@
             </tr>
         </table>
         <div>
-            <label for="searchPro">Filter Product: </label>
+            <label for="searchPro">Filter Product:</label>
             <input type="text" name="searchPro" id="searchPro">
             <button type="search" @click="searchPro">Search</button>
         </div>
@@ -84,15 +84,18 @@ export default {
             {
               this.arr.push(this.formData);
             }
+    
             this.formData = {
                 id: 0,
                 pName: "",
-                price : "",
+                price :"",
                 category : "",
                 color : "",
             }
             console.log("formData is :", this.arr);
          },
+        
+
          deletepro(index) {
             this.arr.splice(index, 1);
         },
@@ -105,6 +108,15 @@ export default {
           this.indexEdit = index ;
         },
         userpro(userName){
+             $('.choice_form').change(function(evt){
+
+        var filter = $(':input:checked,select').map(function(index, el) {
+            return "." + el.value;
+        }).toArray().join("");
+
+        $(".vis-products").hide().filter(filter).show();
+
+    });
       
         },
     }
