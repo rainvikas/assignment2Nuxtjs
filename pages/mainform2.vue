@@ -31,28 +31,7 @@
             </table>
         </form>
     </div>
-    <!--<div class="bg-gray-300 col-span-2 flex" v-for="(prod) in myarr" :key="prod">   
-        <div class="m-10 h-52 w-52 border-4 border-black" >
-            <img src="assets/show1.jfif" class="h-45 w-45">
-            product Name: <b>{{this.formdata.pname}}</b>
-            Product price: <b>{{this.formdata.price}}</b>
-            Product Category <b>{{this.formdata.category}}</b>
-            Product Color <b>{{this.formdata.category}}</b>
-         </div>
-        <div class="m-10 h-52 w-52 border-4 border-black" >
-            <img src="assets/show2.jfif" class="h-45 w-45"> 
-            product Name: <b>{{formdata.pname}}</b>
-            Product price: <b>{{formdata.price}}</b>
-            Product Category <b>{{formdata.category}}</b>
-            Product Color <b>{{formdata.category}}</b>
-        </div>
-        <div class="m-10 h-52 w-52 border-4 border-black" >
-            <img src="assets/shoe3.jfif" class="h-45 w-45">
-            product Name: <b>{{formdata.pname}}</b>
-            Product price: <b>{{formdata.price}}</b>
-            Product Category <b>{{formdata.category}}</b>
-            Product Color <b>{{formdata.category}}</b>
-        </div> -->
+   
     <table class="border-2  bg-gray-100 mr-60 ml-60 p-6 border-solid border-black rounded-md mt-4 ">
         <tr>
             <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">ID</td>

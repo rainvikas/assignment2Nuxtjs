@@ -14,12 +14,7 @@
             </div>
         </div>
     </div>
-    <!-- <div class="container" v-for="items in this.cars" :key="items">
-                <div class="filterDiv cars">{{items}}</div> -->
-    <!-- <div class="filterDiv cars">Mustang GT</div>
-                <div class="filterDiv cars">Audi R8</div>
-                <div class="filterDiv cars">Rolly Royce Cullian</div> -->
-    <!-- </div> -->
+   
 </div>
 <div v-if="this.showMobile==true">
     <div class="" v-for="items in this.mobiles" :key="items">

@@ -1,34 +1,34 @@
 
 // --------------------
-// Request: C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/nuxt/dist/app/entry
+// Request: C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/nuxt/dist/app/entry
 // Parents: 
 // - <entry> ($id_x1frnpf8FZ)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_YPBhX5dq3F)
 // - /node_modules/ohmyfetch/dist/index.mjs ($id_eAIXxFjGLW)
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/paths.mjs ($id_9B77pdqZ84)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/paths.mjs ($id_pbTTvvLThm)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/css.mjs ($id_fWo8oqM3gT)
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/plugins/server.mjs ($id_YvTzo3YNrI)
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/root-component.mjs ($id_SAEha7rJcE)
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/app-component.mjs ($id_kBXyKeGpT4)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/css.mjs ($id_UUUlcdZMd6)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/plugins/server.mjs ($id_bJFk6taCze)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/root-component.mjs ($id_rKNlVuGBFy)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/app-component.mjs ($id_IRpI2Qfy9W)
 // --------------------
-const $id_LuSNNgdwh8 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_1iuJbN69NV = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/ohmyfetch/dist/index.mjs");
 
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/paths.mjs");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/paths.mjs");
 
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/css.mjs");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/css.mjs");
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/plugins/server.mjs");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/plugins/server.mjs");
 
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/root-component.mjs");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/root-component.mjs");
 
-const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/app-component.mjs");
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/app-component.mjs");
 
 if (!globalThis.$fetch) {
   globalThis.$fetch = __vite_ssr_import_1__.$fetch.create({
@@ -93,7 +93,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // --------------------
 // Request: /node_modules/vue/dist/vue.cjs.js
 // Parents: 
-// - C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/nuxt/dist/app/entry ($id_LuSNNgdwh8)
+// - C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/nuxt/dist/app/entry ($id_1iuJbN69NV)
 // - /node_modules/nuxt/dist/app/nuxt.mjs ($id_4GnUEZ7ifE)
 // - /node_modules/nuxt/dist/app/composables/component.mjs ($id_UzRZUO1GKq)
 // - /node_modules/nuxt/dist/app/composables/asyncData.mjs ($id_1baiIWALJh)
@@ -103,7 +103,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/nuxt/dist/app/composables/cookie.mjs ($id_URtEHTJ6vX)
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_6yHtfHy3cx)
 // - /node_modules/nuxt/dist/head/runtime/composables.mjs ($id_BOqVBAGCOv)
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/components.plugin.mjs ($id_Q3ZQK0znRJ)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/components.plugin.mjs ($id_ndZNrTeOkG)
 // - /node_modules/@vueuse/head/dist/index.mjs ($id_wDImTp8t2G)
 // - /node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs ($id_5vEgA2Fgrh)
 // - /node_modules/nuxt/dist/head/runtime/plugin.mjs ($id_omUDQe4IGe)
@@ -125,18 +125,18 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_6btoGdWLJh)
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_jMbXP0vyaY)
 // - /node_modules/nuxt/dist/app/compat/capi.mjs ($id_DFcXpE295m)
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/imports.mjs ($id_nU6N7xbgpP)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/imports.mjs ($id_Q36i860Uf5)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_uQ1ND2iuUo)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_vC10oUHchO)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_FMi1dBhUQk)
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_OQA4gz7rLc)
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/layouts.mjs ($id_HtgmuLPt0V)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/layouts.mjs ($id_hQrtYySk28)
 // - /node_modules/nuxt/dist/pages/runtime/app.vue ($id_bGEBDyzLuq)
 // Dependencies: 
 
 // --------------------
 const $id_YPBhX5dq3F = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/vue/dist/vue.cjs.js")
+import("file:///C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/vue/dist/vue.cjs.js")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -145,19 +145,19 @@ import("file:///C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/vue/dist/vue.cjs.js\".")
+    throw new Error("[vite dev] Error loading external \"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/vue/dist/vue.cjs.js\".")
   })
 
 
 // --------------------
 // Request: /node_modules/ohmyfetch/dist/index.mjs
 // Parents: 
-// - C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/nuxt/dist/app/entry ($id_LuSNNgdwh8)
+// - C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/nuxt/dist/app/entry ($id_1iuJbN69NV)
 // Dependencies: 
 
 // --------------------
 const $id_eAIXxFjGLW = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/ohmyfetch/dist/index.mjs")
+import("file:///C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/ohmyfetch/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -166,18 +166,18 @@ import("file:///C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/ohmyfetch/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/ohmyfetch/dist/index.mjs\".")
   })
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/paths.mjs
+// Request: /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/paths.mjs
 // Parents: 
-// - C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/nuxt/dist/app/entry ($id_LuSNNgdwh8)
+// - C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/nuxt/dist/app/entry ($id_1iuJbN69NV)
 // Dependencies: 
 // - /node_modules/ufo/dist/index.mjs ($id_YU3gYOEqyI)
 // --------------------
-const $id_9B77pdqZ84 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_pbTTvvLThm = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/ufo/dist/index.mjs");
 
 const appConfig = {"baseURL":"/","buildAssetsDir":"/_nuxt/","assetsPath":{},"cdnURL":"","head":{"charset":"utf-8","viewport":"width=device-width, initial-scale=1","meta":[],"link":[],"style":[],"script":[]}}
@@ -198,7 +198,7 @@ Object.defineProperty(__vite_ssr_exports__, "publicAssetsURL", { enumerable: tru
 // --------------------
 // Request: /node_modules/ufo/dist/index.mjs
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/paths.mjs ($id_9B77pdqZ84)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/paths.mjs ($id_pbTTvvLThm)
 // - /node_modules/nuxt/dist/app/composables/router.mjs ($id_202QqPjMtu)
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_6yHtfHy3cx)
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_oJCXe6nyyh)
@@ -206,7 +206,7 @@ Object.defineProperty(__vite_ssr_exports__, "publicAssetsURL", { enumerable: tru
 
 // --------------------
 const $id_YU3gYOEqyI = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/ufo/dist/index.mjs")
+import("file:///C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/ufo/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -215,14 +215,14 @@ import("file:///C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/ufo/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/ufo/dist/index.mjs\".")
   })
 
 
 // --------------------
 // Request: /node_modules/nuxt/dist/app/index.mjs
 // Parents: 
-// - C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/nuxt/dist/app/entry ($id_LuSNNgdwh8)
+// - C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/nuxt/dist/app/entry ($id_1iuJbN69NV)
 // - /node_modules/nuxt/dist/app/composables/asyncData.mjs ($id_1baiIWALJh)
 // - /node_modules/nuxt/dist/app/composables/hydrate.mjs ($id_AGPfGxS2fu)
 // - /node_modules/nuxt/dist/app/composables/state.mjs ($id_fYchCJb7XZ)
@@ -233,13 +233,13 @@ import("file:///C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_6yHtfHy3cx)
 // - /node_modules/nuxt/dist/head/runtime/composables.mjs ($id_BOqVBAGCOv)
 // - /node_modules/nuxt/dist/app/plugins/preload.server.mjs ($id_mHG7oNEQOP)
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/components.plugin.mjs ($id_Q3ZQK0znRJ)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/components.plugin.mjs ($id_ndZNrTeOkG)
 // - /node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs ($id_5vEgA2Fgrh)
 // - /node_modules/nuxt/dist/head/runtime/plugin.mjs ($id_omUDQe4IGe)
 // - /node_modules/nuxt/dist/pages/runtime/page.mjs ($id_X8FM3AG1sA)
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_oJCXe6nyyh)
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_6btoGdWLJh)
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/imports.mjs ($id_nU6N7xbgpP)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/imports.mjs ($id_Q36i860Uf5)
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_OQA4gz7rLc)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/nuxt.mjs ($id_4GnUEZ7ifE)
@@ -442,7 +442,7 @@ function defineGetter(obj, key, val) {
 
 // --------------------
 const $id_osgRxHGQwS = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/hookable/dist/index.mjs")
+import("file:///C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/hookable/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -451,7 +451,7 @@ import("file:///C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/hookable/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/hookable/dist/index.mjs\".")
   })
 
 
@@ -463,7 +463,7 @@ import("file:///C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/
 
 // --------------------
 const $id_pWnKLdtXja = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/unctx/dist/index.mjs")
+import("file:///C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/unctx/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -472,7 +472,7 @@ import("file:///C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/unctx/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/unctx/dist/index.mjs\".")
   })
 
 
@@ -605,12 +605,12 @@ Object.defineProperty(__vite_ssr_exports__, "defineNuxtComponent", { enumerable:
 // - /node_modules/nuxt/dist/app/composables/component.mjs ($id_UzRZUO1GKq)
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_oJCXe6nyyh)
 // - /node_modules/nuxt/dist/pages/runtime/page.mjs ($id_X8FM3AG1sA)
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/imports.mjs ($id_nU6N7xbgpP)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/imports.mjs ($id_Q36i860Uf5)
 // Dependencies: 
 
 // --------------------
 const $id_aSmmIHQt8x = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/vue-router/dist/vue-router.cjs.js")
+import("file:///C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/vue-router/dist/vue-router.cjs.js")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -619,7 +619,7 @@ import("file:///C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/vue-router/dist/vue-router.cjs.js\".")
+    throw new Error("[vite dev] Error loading external \"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/vue-router/dist/vue-router.cjs.js\".")
   })
 
 
@@ -1063,7 +1063,7 @@ function writeServerCookie(event, name, value, opts = {}) {
 
 // --------------------
 const $id_9JdSYd7S59 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/cookie-es/dist/index.mjs")
+import("file:///C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/cookie-es/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -1072,7 +1072,7 @@ import("file:///C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/cookie-es/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/cookie-es/dist/index.mjs\".")
   })
 
 
@@ -1086,7 +1086,7 @@ import("file:///C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/
 
 // --------------------
 const $id_V9fe1no0d6 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/h3/dist/index.mjs")
+import("file:///C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/h3/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -1095,7 +1095,7 @@ import("file:///C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/h3/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/h3/dist/index.mjs\".")
   })
 
 
@@ -1107,7 +1107,7 @@ import("file:///C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/
 
 // --------------------
 const $id_A9FezTYJBC = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/destr/dist/index.mjs")
+import("file:///C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/destr/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -1116,7 +1116,7 @@ import("file:///C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/destr/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/destr/dist/index.mjs\".")
   })
 
 
@@ -1394,7 +1394,7 @@ __vite_ssr_exports__.default = defineNuxtLink({ componentName: "NuxtLink" });
 // Request: /node_modules/nuxt/dist/head/runtime/index.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/imports.mjs ($id_nU6N7xbgpP)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/imports.mjs ($id_Q36i860Uf5)
 // Dependencies: 
 // - /node_modules/nuxt/dist/head/runtime/composables.mjs ($id_BOqVBAGCOv)
 // --------------------
@@ -1444,7 +1444,7 @@ Object.defineProperty(__vite_ssr_exports__, "useMeta", { enumerable: true, confi
 
 // --------------------
 const $id_hSsGoupXYm = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/@vue/shared/dist/shared.cjs.js")
+import("file:///C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/@vue/shared/dist/shared.cjs.js")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -1453,18 +1453,18 @@ import("file:///C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/@vue/shared/dist/shared.cjs.js\".")
+    throw new Error("[vite dev] Error loading external \"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/@vue/shared/dist/shared.cjs.js\".")
   })
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/css.mjs
+// Request: /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/css.mjs
 // Parents: 
-// - C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/nuxt/dist/app/entry ($id_LuSNNgdwh8)
+// - C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/nuxt/dist/app/entry ($id_1iuJbN69NV)
 // Dependencies: 
 // - /assets/css/tailwind.css ($id_91VI4YQFtU)
 // --------------------
-const $id_fWo8oqM3gT = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_UUUlcdZMd6 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/assets/css/tailwind.css");
 ;
 }
@@ -1473,7 +1473,7 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/assets/css/tailwind.cs
 // --------------------
 // Request: /assets/css/tailwind.css
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/css.mjs ($id_fWo8oqM3gT)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/css.mjs ($id_UUUlcdZMd6)
 // Dependencies: 
 
 // --------------------
@@ -1483,20 +1483,20 @@ __vite_ssr_exports__.default = "/*\n! tailwindcss v3.1.7 | MIT License | https:/
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/plugins/server.mjs
+// Request: /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/plugins/server.mjs
 // Parents: 
-// - C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/nuxt/dist/app/entry ($id_LuSNNgdwh8)
+// - C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/nuxt/dist/app/entry ($id_1iuJbN69NV)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/plugins/preload.server.mjs ($id_mHG7oNEQOP)
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/components.plugin.mjs ($id_Q3ZQK0znRJ)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/components.plugin.mjs ($id_ndZNrTeOkG)
 // - /node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs ($id_5vEgA2Fgrh)
 // - /node_modules/nuxt/dist/head/runtime/plugin.mjs ($id_omUDQe4IGe)
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_oJCXe6nyyh)
 // --------------------
-const $id_YvTzo3YNrI = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_bJFk6taCze = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/plugins/preload.server.mjs");
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/components.plugin.mjs");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/components.plugin.mjs");
 
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs");
 
@@ -1517,7 +1517,7 @@ __vite_ssr_exports__.default = [
 // --------------------
 // Request: /node_modules/nuxt/dist/app/plugins/preload.server.mjs
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/plugins/server.mjs ($id_YvTzo3YNrI)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/plugins/server.mjs ($id_bJFk6taCze)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
 // --------------------
@@ -1538,14 +1538,14 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineNuxtPlugin((nuxtApp) 
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/components.plugin.mjs
+// Request: /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/components.plugin.mjs
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/plugins/server.mjs ($id_YvTzo3YNrI)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/plugins/server.mjs ($id_bJFk6taCze)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_YPBhX5dq3F)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
 // --------------------
-const $id_Q3ZQK0znRJ = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_ndZNrTeOkG = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
@@ -1566,7 +1566,7 @@ __vite_ssr_exports__.default = __vite_ssr_import_1__.defineNuxtPlugin(nuxtApp =>
 // --------------------
 // Request: /node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/plugins/server.mjs ($id_YvTzo3YNrI)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/plugins/server.mjs ($id_bJFk6taCze)
 // Dependencies: 
 // - /node_modules/@vueuse/head/dist/index.mjs ($id_wDImTp8t2G)
 // - /node_modules/vue/dist/vue.cjs.js ($id_YPBhX5dq3F)
@@ -2097,7 +2097,7 @@ Object.defineProperty(__vite_ssr_exports__, "useHead", { enumerable: true, confi
 
 // --------------------
 const $id_16rZclLIWW = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/defu/dist/defu.mjs")
+import("file:///C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/defu/dist/defu.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -2106,20 +2106,20 @@ import("file:///C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/defu/dist/defu.mjs\".")
+    throw new Error("[vite dev] Error loading external \"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/defu/dist/defu.mjs\".")
   })
 
 
 // --------------------
 // Request: /node_modules/nuxt/dist/head/runtime/plugin.mjs
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/plugins/server.mjs ($id_YvTzo3YNrI)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/plugins/server.mjs ($id_bJFk6taCze)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_YPBhX5dq3F)
 // - /node_modules/nuxt/dist/head/runtime/components.mjs ($id_sqKdb79FW5)
 // - /node_modules/nuxt/dist/head/runtime/composables.mjs ($id_BOqVBAGCOv)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/meta.config.mjs ($id_uazUKtcc4c)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/meta.config.mjs ($id_mQTgwOZXH4)
 // --------------------
 const $id_omUDQe4IGe = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
@@ -2130,7 +2130,7 @@ const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt/dist
 
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/meta.config.mjs");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/meta.config.mjs");
 
 const metaMixin = {
   created() {
@@ -2378,13 +2378,13 @@ Object.defineProperty(__vite_ssr_exports__, "Body", { enumerable: true, configur
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/meta.config.mjs
+// Request: /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/meta.config.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/head/runtime/plugin.mjs ($id_omUDQe4IGe)
 // Dependencies: 
 
 // --------------------
-const $id_uazUKtcc4c = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_mQTgwOZXH4 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 __vite_ssr_exports__.default = {"globalMeta":{"charset":"utf-8","viewport":"width=device-width, initial-scale=1","meta":[],"link":[],"style":[],"script":[]}};
 }
 
@@ -2392,7 +2392,7 @@ __vite_ssr_exports__.default = {"globalMeta":{"charset":"utf-8","viewport":"widt
 // --------------------
 // Request: /node_modules/nuxt/dist/pages/runtime/router.mjs
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/plugins/server.mjs ($id_YvTzo3YNrI)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/plugins/server.mjs ($id_bJFk6taCze)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_YPBhX5dq3F)
 // - /node_modules/vue-router/dist/vue-router.cjs.js ($id_aSmmIHQt8x)
@@ -2400,9 +2400,9 @@ __vite_ssr_exports__.default = {"globalMeta":{"charset":"utf-8","viewport":"widt
 // - /node_modules/ufo/dist/index.mjs ($id_YU3gYOEqyI)
 // - /node_modules/nuxt/dist/pages/runtime/page.mjs ($id_X8FM3AG1sA)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/routes.mjs ($id_dJHpVd8WlX)
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/router.options.mjs ($id_87E6BlDaFB)
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/middleware.mjs ($id_uoKe0jcF0x)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/routes.mjs ($id_sj5YKYdOdm)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/router.options.mjs ($id_7lgABHZ489)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/middleware.mjs ($id_36W6gD7waQ)
 // --------------------
 const $id_oJCXe6nyyh = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
@@ -2417,11 +2417,11 @@ const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/nuxt/dist
 
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/routes.mjs");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/routes.mjs");
 
-const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/router.options.mjs");
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/router.options.mjs");
 
-const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/middleware.mjs");
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/middleware.mjs");
 
 function createCurrentLocation(base, location) {
   const { pathname, search, hash } = location;
@@ -2674,7 +2674,7 @@ Object.defineProperty(__vite_ssr_exports__, "_wrapIf", { enumerable: true, confi
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/routes.mjs
+// Request: /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/routes.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_oJCXe6nyyh)
 // Dependencies: 
@@ -2689,7 +2689,7 @@ Object.defineProperty(__vite_ssr_exports__, "_wrapIf", { enumerable: true, confi
 // - /pages/mainform2.vue ($id_R3lrK1c9Ll)
 // - /pages/productform.vue ($id_YS2Bc3d2xU)
 // --------------------
-const $id_dJHpVd8WlX = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_sj5YKYdOdm = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/pages/filterdemo.vue?macro=true");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/pages/frontpage.vue?macro=true");
@@ -2704,7 +2704,7 @@ __vite_ssr_exports__.default = [
   {
     name: "filterdemo",
     path: "/filterdemo",
-    file: "C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/pages/filterdemo.vue",
+    file: "C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/pages/filterdemo.vue",
     children: [],
     meta: __vite_ssr_import_0__.meta,
     alias: __vite_ssr_import_0__.meta?.alias || [],
@@ -2713,7 +2713,7 @@ __vite_ssr_exports__.default = [
   {
     name: "frontpage",
     path: "/frontpage",
-    file: "C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/pages/frontpage.vue",
+    file: "C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/pages/frontpage.vue",
     children: [],
     meta: __vite_ssr_import_1__.meta,
     alias: __vite_ssr_import_1__.meta?.alias || [],
@@ -2722,7 +2722,7 @@ __vite_ssr_exports__.default = [
   {
     name: "mainform",
     path: "/mainform",
-    file: "C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/pages/mainform.vue",
+    file: "C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/pages/mainform.vue",
     children: [],
     meta: __vite_ssr_import_2__.meta,
     alias: __vite_ssr_import_2__.meta?.alias || [],
@@ -2731,7 +2731,7 @@ __vite_ssr_exports__.default = [
   {
     name: "mainform2",
     path: "/mainform2",
-    file: "C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/pages/mainform2.vue",
+    file: "C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/pages/mainform2.vue",
     children: [],
     meta: __vite_ssr_import_3__.meta,
     alias: __vite_ssr_import_3__.meta?.alias || [],
@@ -2740,7 +2740,7 @@ __vite_ssr_exports__.default = [
   {
     name: "productform",
     path: "/productform",
-    file: "C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/pages/productform.vue",
+    file: "C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/pages/productform.vue",
     children: [],
     meta: __vite_ssr_import_4__.meta,
     alias: __vite_ssr_import_4__.meta?.alias || [],
@@ -2753,7 +2753,7 @@ __vite_ssr_exports__.default = [
 // --------------------
 // Request: /pages/filterdemo.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/routes.mjs ($id_dJHpVd8WlX)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/routes.mjs ($id_sj5YKYdOdm)
 // Dependencies: 
 // - /node_modules/vue/server-renderer/index.js ($id_shX6HK8fbb)
 // - /node_modules/vue/dist/vue.cjs.js ($id_YPBhX5dq3F)
@@ -2800,10 +2800,7 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/serve
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<!--[--><div><div><div id="myBtn"><button class="btn">Mobiles</button><div id="myBtn"><button class="btn">Shoes</button><div id="myBtn"><button class="btn">Earphones</button><div id="myBtn"><button class="btn">Watches</button></div></div></div></div></div><!-- <div class="container" v-for="items in this.cars" :key="items">
-                <div class="filterDiv cars">{{items}}</div> --><!-- <div class="filterDiv cars">Mustang GT</div>
-                <div class="filterDiv cars">Audi R8</div>
-                <div class="filterDiv cars">Rolly Royce Cullian</div> --><!-- </div> --></div>`)
+  _push(`<!--[--><div><div><div id="myBtn"><button class="btn">Mobiles</button><div id="myBtn"><button class="btn">Shoes</button><div id="myBtn"><button class="btn">Earphones</button><div id="myBtn"><button class="btn">Watches</button></div></div></div></div></div></div>`)
   if (this.showMobile==true) {
     _push(`<div><!--[-->`)
     __vite_ssr_import_0__.ssrRenderList(this.mobiles, (items) => {
@@ -2854,7 +2851,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/pages/filterdemo.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/pages/filterdemo.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -2883,7 +2880,7 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 
 // --------------------
 const $id_shX6HK8fbb = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/vue/server-renderer/index.js")
+import("file:///C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/vue/server-renderer/index.js")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -2892,7 +2889,7 @@ import("file:///C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/vue/server-renderer/index.js\".")
+    throw new Error("[vite dev] Error loading external \"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/vue/server-renderer/index.js\".")
   })
 
 
@@ -2934,7 +2931,7 @@ __vite_ssr_exports__.default = (sfc, props) => {
 // --------------------
 // Request: /pages/frontpage.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/routes.mjs ($id_dJHpVd8WlX)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/routes.mjs ($id_sj5YKYdOdm)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_YPBhX5dq3F)
 // - /node_modules/vue/server-renderer/index.js ($id_shX6HK8fbb)
@@ -2962,7 +2959,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/pages/frontpage.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/pages/frontpage.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -2971,7 +2968,7 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // --------------------
 // Request: /pages/mainform.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/routes.mjs ($id_dJHpVd8WlX)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/routes.mjs ($id_sj5YKYdOdm)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_YPBhX5dq3F)
 // - /node_modules/vue/server-renderer/index.js ($id_shX6HK8fbb)
@@ -3045,20 +3042,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
       __vite_ssr_import_1__.ssrInterpolate(this.formdata.category)
     }</b> Product Color <b>${
       __vite_ssr_import_1__.ssrInterpolate(this.formdata.category)
-    }</b></div><!-- <div class="m-10 h-52 w-52 border-4 border-black" >
-            <img src="assets/show2.jfif" class="h-45 w-45"> 
-            product Name: <b>{{formdata.pname}}</b>
-            Product price: <b>{{formdata.price}}</b>
-            Product Category <b>{{formdata.category}}</b>
-            Product Color <b>{{formdata.category}}</b>
-        </div>
-        <div class="m-10 h-52 w-52 border-4 border-black" >
-            <img src="assets/shoe3.jfif" class="h-45 w-45">
-            product Name: <b>{{formdata.pname}}</b>
-            Product price: <b>{{formdata.price}}</b>
-            Product Category <b>{{formdata.category}}</b>
-            Product Color <b>{{formdata.category}}</b>
-        </div> --></div>`)
+    }</b></div></div>`)
   })
   _push(`<!--]--></div>`)
 }
@@ -3074,7 +3058,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/pages/mainform.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/pages/mainform.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -3083,7 +3067,7 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // --------------------
 // Request: /pages/mainform2.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/routes.mjs ($id_dJHpVd8WlX)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/routes.mjs ($id_sj5YKYdOdm)
 // Dependencies: 
 // - /node_modules/vue/server-renderer/index.js ($id_shX6HK8fbb)
 // - /node_modules/vue/dist/vue.cjs.js ($id_YPBhX5dq3F)
@@ -3159,28 +3143,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
     __vite_ssr_import_0__.ssrRenderAttr("value", $data.formdata.category)
   } class="bg-white border border-slate-300 rounded-md py-2 pl-9 pr-3 m-5"></td></tr><tr><td><label>Product Color :</label></td><td><input type="text"${
     __vite_ssr_import_0__.ssrRenderAttr("value", $data.formdata.color)
-  } class="bg-white border border-slate-300 rounded-md py-2 pl-9 pr-3 m-5"></td></tr><tr><td><button type="button" class="border-solid font-extrabold rounded border-2 border-black p-3 bg-gray-300 bg-hover-black"> Submit </button></td></tr></table></form></div><!--<div class="bg-gray-300 col-span-2 flex" v-for="(prod) in myarr" :key="prod">   
-        <div class="m-10 h-52 w-52 border-4 border-black" >
-            <img src="assets/show1.jfif" class="h-45 w-45">
-            product Name: <b>{{this.formdata.pname}}</b>
-            Product price: <b>{{this.formdata.price}}</b>
-            Product Category <b>{{this.formdata.category}}</b>
-            Product Color <b>{{this.formdata.category}}</b>
-         </div>
-        <div class="m-10 h-52 w-52 border-4 border-black" >
-            <img src="assets/show2.jfif" class="h-45 w-45"> 
-            product Name: <b>{{formdata.pname}}</b>
-            Product price: <b>{{formdata.price}}</b>
-            Product Category <b>{{formdata.category}}</b>
-            Product Color <b>{{formdata.category}}</b>
-        </div>
-        <div class="m-10 h-52 w-52 border-4 border-black" >
-            <img src="assets/shoe3.jfif" class="h-45 w-45">
-            product Name: <b>{{formdata.pname}}</b>
-            Product price: <b>{{formdata.price}}</b>
-            Product Category <b>{{formdata.category}}</b>
-            Product Color <b>{{formdata.category}}</b>
-        </div> --><table class="border-2 bg-gray-100 mr-60 ml-60 p-6 border-solid border-black rounded-md mt-4"><tr><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">ID</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Image</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Name</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Price</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Category</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Color</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Delete</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Edit Data</td></tr><!--[-->`)
+  } class="bg-white border border-slate-300 rounded-md py-2 pl-9 pr-3 m-5"></td></tr><tr><td><button type="button" class="border-solid font-extrabold rounded border-2 border-black p-3 bg-gray-300 bg-hover-black"> Submit </button></td></tr></table></form></div><table class="border-2 bg-gray-100 mr-60 ml-60 p-6 border-solid border-black rounded-md mt-4"><tr><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">ID</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Image</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Name</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Price</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Category</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Color</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Delete</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Edit Data</td></tr><!--[-->`)
   __vite_ssr_import_0__.ssrRenderList($data.myarr, (item, i) => {
     _push(`<tr><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8">${
       __vite_ssr_import_0__.ssrInterpolate(item.id = i + 1)
@@ -3208,7 +3171,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/pages/mainform2.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/pages/mainform2.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -3217,7 +3180,7 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // --------------------
 // Request: /pages/productform.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/routes.mjs ($id_dJHpVd8WlX)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/routes.mjs ($id_sj5YKYdOdm)
 // Dependencies: 
 // - /node_modules/vue/server-renderer/index.js ($id_shX6HK8fbb)
 // - /node_modules/vue/dist/vue.cjs.js ($id_YPBhX5dq3F)
@@ -3342,7 +3305,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/pages/productform.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/pages/productform.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -3351,7 +3314,7 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // --------------------
 // Request: /pages/filterdemo.vue
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/routes.mjs ($id_dJHpVd8WlX)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/routes.mjs ($id_sj5YKYdOdm)
 // Dependencies: 
 // - /node_modules/vue/server-renderer/index.js ($id_shX6HK8fbb)
 // - /node_modules/vue/dist/vue.cjs.js ($id_YPBhX5dq3F)
@@ -3398,10 +3361,7 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/serve
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<!--[--><div><div><div id="myBtn"><button class="btn">Mobiles</button><div id="myBtn"><button class="btn">Shoes</button><div id="myBtn"><button class="btn">Earphones</button><div id="myBtn"><button class="btn">Watches</button></div></div></div></div></div><!-- <div class="container" v-for="items in this.cars" :key="items">
-                <div class="filterDiv cars">{{items}}</div> --><!-- <div class="filterDiv cars">Mustang GT</div>
-                <div class="filterDiv cars">Audi R8</div>
-                <div class="filterDiv cars">Rolly Royce Cullian</div> --><!-- </div> --></div>`)
+  _push(`<!--[--><div><div><div id="myBtn"><button class="btn">Mobiles</button><div id="myBtn"><button class="btn">Shoes</button><div id="myBtn"><button class="btn">Earphones</button><div id="myBtn"><button class="btn">Watches</button></div></div></div></div></div></div>`)
   if (this.showMobile==true) {
     _push(`<div><!--[-->`)
     __vite_ssr_import_0__.ssrRenderList(this.mobiles, (items) => {
@@ -3452,14 +3412,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/pages/filterdemo.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/pages/filterdemo.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/frontpage.vue
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/routes.mjs ($id_dJHpVd8WlX)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/routes.mjs ($id_sj5YKYdOdm)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_YPBhX5dq3F)
 // - /node_modules/vue/server-renderer/index.js ($id_shX6HK8fbb)
@@ -3487,14 +3447,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/pages/frontpage.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/pages/frontpage.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/mainform.vue
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/routes.mjs ($id_dJHpVd8WlX)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/routes.mjs ($id_sj5YKYdOdm)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_YPBhX5dq3F)
 // - /node_modules/vue/server-renderer/index.js ($id_shX6HK8fbb)
@@ -3568,20 +3528,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
       __vite_ssr_import_1__.ssrInterpolate(this.formdata.category)
     }</b> Product Color <b>${
       __vite_ssr_import_1__.ssrInterpolate(this.formdata.category)
-    }</b></div><!-- <div class="m-10 h-52 w-52 border-4 border-black" >
-            <img src="assets/show2.jfif" class="h-45 w-45"> 
-            product Name: <b>{{formdata.pname}}</b>
-            Product price: <b>{{formdata.price}}</b>
-            Product Category <b>{{formdata.category}}</b>
-            Product Color <b>{{formdata.category}}</b>
-        </div>
-        <div class="m-10 h-52 w-52 border-4 border-black" >
-            <img src="assets/shoe3.jfif" class="h-45 w-45">
-            product Name: <b>{{formdata.pname}}</b>
-            Product price: <b>{{formdata.price}}</b>
-            Product Category <b>{{formdata.category}}</b>
-            Product Color <b>{{formdata.category}}</b>
-        </div> --></div>`)
+    }</b></div></div>`)
   })
   _push(`<!--]--></div>`)
 }
@@ -3597,14 +3544,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/pages/mainform.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/pages/mainform.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/mainform2.vue
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/routes.mjs ($id_dJHpVd8WlX)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/routes.mjs ($id_sj5YKYdOdm)
 // Dependencies: 
 // - /node_modules/vue/server-renderer/index.js ($id_shX6HK8fbb)
 // - /node_modules/vue/dist/vue.cjs.js ($id_YPBhX5dq3F)
@@ -3680,28 +3627,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
     __vite_ssr_import_0__.ssrRenderAttr("value", $data.formdata.category)
   } class="bg-white border border-slate-300 rounded-md py-2 pl-9 pr-3 m-5"></td></tr><tr><td><label>Product Color :</label></td><td><input type="text"${
     __vite_ssr_import_0__.ssrRenderAttr("value", $data.formdata.color)
-  } class="bg-white border border-slate-300 rounded-md py-2 pl-9 pr-3 m-5"></td></tr><tr><td><button type="button" class="border-solid font-extrabold rounded border-2 border-black p-3 bg-gray-300 bg-hover-black"> Submit </button></td></tr></table></form></div><!--<div class="bg-gray-300 col-span-2 flex" v-for="(prod) in myarr" :key="prod">   
-        <div class="m-10 h-52 w-52 border-4 border-black" >
-            <img src="assets/show1.jfif" class="h-45 w-45">
-            product Name: <b>{{this.formdata.pname}}</b>
-            Product price: <b>{{this.formdata.price}}</b>
-            Product Category <b>{{this.formdata.category}}</b>
-            Product Color <b>{{this.formdata.category}}</b>
-         </div>
-        <div class="m-10 h-52 w-52 border-4 border-black" >
-            <img src="assets/show2.jfif" class="h-45 w-45"> 
-            product Name: <b>{{formdata.pname}}</b>
-            Product price: <b>{{formdata.price}}</b>
-            Product Category <b>{{formdata.category}}</b>
-            Product Color <b>{{formdata.category}}</b>
-        </div>
-        <div class="m-10 h-52 w-52 border-4 border-black" >
-            <img src="assets/shoe3.jfif" class="h-45 w-45">
-            product Name: <b>{{formdata.pname}}</b>
-            Product price: <b>{{formdata.price}}</b>
-            Product Category <b>{{formdata.category}}</b>
-            Product Color <b>{{formdata.category}}</b>
-        </div> --><table class="border-2 bg-gray-100 mr-60 ml-60 p-6 border-solid border-black rounded-md mt-4"><tr><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">ID</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Image</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Name</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Price</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Category</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Color</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Delete</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Edit Data</td></tr><!--[-->`)
+  } class="bg-white border border-slate-300 rounded-md py-2 pl-9 pr-3 m-5"></td></tr><tr><td><button type="button" class="border-solid font-extrabold rounded border-2 border-black p-3 bg-gray-300 bg-hover-black"> Submit </button></td></tr></table></form></div><table class="border-2 bg-gray-100 mr-60 ml-60 p-6 border-solid border-black rounded-md mt-4"><tr><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">ID</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Image</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Name</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Price</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Category</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Color</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Delete</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Edit Data</td></tr><!--[-->`)
   __vite_ssr_import_0__.ssrRenderList($data.myarr, (item, i) => {
     _push(`<tr><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8">${
       __vite_ssr_import_0__.ssrInterpolate(item.id = i + 1)
@@ -3729,14 +3655,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/pages/mainform2.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/pages/mainform2.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/productform.vue
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/routes.mjs ($id_dJHpVd8WlX)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/routes.mjs ($id_sj5YKYdOdm)
 // Dependencies: 
 // - /node_modules/vue/server-renderer/index.js ($id_shX6HK8fbb)
 // - /node_modules/vue/dist/vue.cjs.js ($id_YPBhX5dq3F)
@@ -3861,18 +3787,18 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/pages/productform.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/pages/productform.vue"]]);
 }
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/router.options.mjs
+// Request: /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/router.options.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_oJCXe6nyyh)
 // Dependencies: 
 
 // --------------------
-const $id_87E6BlDaFB = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_7lgABHZ489 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const configRouterOptions = {}
 __vite_ssr_exports__.default = {
 ...configRouterOptions,
@@ -3881,13 +3807,13 @@ __vite_ssr_exports__.default = {
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/middleware.mjs
+// Request: /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/middleware.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_oJCXe6nyyh)
 // Dependencies: 
 
 // --------------------
-const $id_uoKe0jcF0x = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_36W6gD7waQ = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const globalMiddleware = []
 Object.defineProperty(__vite_ssr_exports__, "globalMiddleware", { enumerable: true, configurable: true, get(){ return globalMiddleware }});
 const namedMiddleware = {}
@@ -3896,13 +3822,13 @@ Object.defineProperty(__vite_ssr_exports__, "namedMiddleware", { enumerable: tru
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/root-component.mjs
+// Request: /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/root-component.mjs
 // Parents: 
-// - C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/nuxt/dist/app/entry ($id_LuSNNgdwh8)
+// - C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/nuxt/dist/app/entry ($id_1iuJbN69NV)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_6btoGdWLJh)
 // --------------------
-const $id_SAEha7rJcE = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_rKNlVuGBFy = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-root.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
@@ -3912,13 +3838,13 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt/dist/app/components/nuxt-root.vue
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/root-component.mjs ($id_SAEha7rJcE)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/root-component.mjs ($id_rKNlVuGBFy)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_YPBhX5dq3F)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
 // - /node_modules/vue/server-renderer/index.js ($id_shX6HK8fbb)
 // - /@id/plugin-vue:export-helper ($id_u7hjwQB3Fl)
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/error-component.mjs ($id_5EvJwta8U6)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/error-component.mjs ($id_dnV7Fuyy9S)
 // --------------------
 const $id_6btoGdWLJh = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
@@ -3932,7 +3858,7 @@ const _sfc_main = {
   setup(__props, { expose }) {
   expose();
 
-const ErrorComponent = __vite_ssr_import_0__.defineAsyncComponent(() => __vite_ssr_dynamic_import__('/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/error-component.mjs'))
+const ErrorComponent = __vite_ssr_import_0__.defineAsyncComponent(() => __vite_ssr_dynamic_import__('/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/error-component.mjs'))
 
 const nuxtApp = __vite_ssr_import_1__.useNuxtApp()
 const onResolve = () => nuxtApp.callHook('app:suspense:resolve')
@@ -3989,18 +3915,18 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/nuxt/dist/app/components/nuxt-root.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/nuxt/dist/app/components/nuxt-root.vue"]]);
 }
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/error-component.mjs
+// Request: /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/error-component.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_6btoGdWLJh)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_jMbXP0vyaY)
 // --------------------
-const $id_5EvJwta8U6 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_dnV7Fuyy9S = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-error-page.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
@@ -4010,7 +3936,7 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt/dist/app/components/nuxt-error-page.vue
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/error-component.mjs ($id_5EvJwta8U6)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/error-component.mjs ($id_dnV7Fuyy9S)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_YPBhX5dq3F)
 // - /node_modules/vue/server-renderer/index.js ($id_shX6HK8fbb)
@@ -4097,7 +4023,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/nuxt/dist/app/components/nuxt-error-page.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/nuxt/dist/app/components/nuxt-error-page.vue"]]);
 }
 
 
@@ -4107,7 +4033,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_m
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_jMbXP0vyaY)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_6yHtfHy3cx)
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/imports.mjs ($id_nU6N7xbgpP)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/imports.mjs ($id_Q36i860Uf5)
 // - /node_modules/vue/dist/vue.cjs.js ($id_YPBhX5dq3F)
 // - /node_modules/vue/server-renderer/index.js ($id_shX6HK8fbb)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=true&lang.css ($id_5otrOPr3UP)
@@ -4116,7 +4042,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_m
 const $id_uQ1ND2iuUo = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-link.mjs");
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/imports.mjs");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/imports.mjs");
 
 
 const _sfc_main = {
@@ -4215,12 +4141,12 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-573335c0"],['__file',"C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-573335c0"],['__file',"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue"]]);
 }
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/imports.mjs
+// Request: /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/imports.mjs
 // Parents: 
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_uQ1ND2iuUo)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_vC10oUHchO)
@@ -4233,7 +4159,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_m
 // - /node_modules/nuxt/dist/pages/runtime/composables.mjs ($id_27UVWcb1VH)
 // - /node_modules/vue-router/dist/vue-router.cjs.js ($id_aSmmIHQt8x)
 // --------------------
-const $id_nU6N7xbgpP = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_Q36i860Uf5 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/head/runtime/index.mjs");
 
 Object.defineProperty(__vite_ssr_exports__, "useHead", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.useHead }});
@@ -4339,7 +4265,7 @@ Object.defineProperty(__vite_ssr_exports__, "useLink", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt/dist/app/compat/vue-demi.mjs
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/imports.mjs ($id_nU6N7xbgpP)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/imports.mjs ($id_Q36i860Uf5)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/compat/capi.mjs ($id_DFcXpE295m)
 // --------------------
@@ -4394,7 +4320,7 @@ Object.defineProperty(__vite_ssr_exports__, "del", { enumerable: true, configura
 // --------------------
 // Request: /node_modules/nuxt/dist/pages/runtime/composables.mjs
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/imports.mjs ($id_nU6N7xbgpP)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/imports.mjs ($id_Q36i860Uf5)
 // Dependencies: 
 
 // --------------------
@@ -4427,14 +4353,14 @@ __vite_ssr_exports__.default = "\n.spotlight[data-v-573335c0]{background:linear-
 // Parents: 
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_jMbXP0vyaY)
 // Dependencies: 
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/imports.mjs ($id_nU6N7xbgpP)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/imports.mjs ($id_Q36i860Uf5)
 // - /node_modules/vue/dist/vue.cjs.js ($id_YPBhX5dq3F)
 // - /node_modules/vue/server-renderer/index.js ($id_shX6HK8fbb)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=true&lang.css ($id_JpEWTLBcMj)
 // - /@id/plugin-vue:export-helper ($id_u7hjwQB3Fl)
 // --------------------
 const $id_vC10oUHchO = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/imports.mjs");
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/imports.mjs");
 
 
 const _sfc_main = {
@@ -4517,7 +4443,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-1da4697d"],['__file',"C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-1da4697d"],['__file',"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue"]]);
 }
 
 
@@ -4538,14 +4464,14 @@ __vite_ssr_exports__.default = "\n.spotlight[data-v-1da4697d]{background:linear-
 // Parents: 
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_jMbXP0vyaY)
 // Dependencies: 
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/imports.mjs ($id_nU6N7xbgpP)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/imports.mjs ($id_Q36i860Uf5)
 // - /node_modules/vue/dist/vue.cjs.js ($id_YPBhX5dq3F)
 // - /node_modules/vue/server-renderer/index.js ($id_shX6HK8fbb)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=true&lang.css ($id_orO3Ccf7NQ)
 // - /@id/plugin-vue:export-helper ($id_u7hjwQB3Fl)
 // --------------------
 const $id_FMi1dBhUQk = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/imports.mjs");
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/imports.mjs");
 
 
 const _sfc_main = {
@@ -4622,7 +4548,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-0914425d"],['__file',"C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-0914425d"],['__file',"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"]]);
 }
 
 
@@ -4639,13 +4565,13 @@ __vite_ssr_exports__.default = "\n.spotlight[data-v-0914425d]{background:linear-
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/app-component.mjs
+// Request: /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/app-component.mjs
 // Parents: 
-// - C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/nuxt/dist/app/entry ($id_LuSNNgdwh8)
+// - C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/nuxt/dist/app/entry ($id_1iuJbN69NV)
 // Dependencies: 
 // - /node_modules/nuxt/dist/pages/runtime/app.vue ($id_bGEBDyzLuq)
 // --------------------
-const $id_kBXyKeGpT4 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_IRpI2Qfy9W = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/pages/runtime/app.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
@@ -4655,7 +4581,7 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt/dist/pages/runtime/app.vue
 // Parents: 
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/app-component.mjs ($id_kBXyKeGpT4)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/app-component.mjs ($id_IRpI2Qfy9W)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_OQA4gz7rLc)
 // - /node_modules/vue/dist/vue.cjs.js ($id_YPBhX5dq3F)
@@ -4700,7 +4626,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/nuxt/dist/pages/runtime/app.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/nuxt/dist/pages/runtime/app.vue"]]);
 }
 
 
@@ -4712,7 +4638,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_m
 // - /node_modules/vue/dist/vue.cjs.js ($id_YPBhX5dq3F)
 // - /node_modules/nuxt/dist/app/components/utils.mjs ($id_acUmhqj8VN)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_NpJ0d20vMd)
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/layouts.mjs ($id_HtgmuLPt0V)
+// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/layouts.mjs ($id_hQrtYySk28)
 // --------------------
 const $id_OQA4gz7rLc = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
@@ -4721,7 +4647,7 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist
 
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/layouts.mjs");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/layouts.mjs");
 
 const defaultLayoutTransition = { name: "layout", mode: "out-in" };
 __vite_ssr_exports__.default = __vite_ssr_import_0__.defineComponent({
@@ -4748,13 +4674,13 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineComponent({
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/layouts.mjs
+// Request: /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/layouts.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_OQA4gz7rLc)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_YPBhX5dq3F)
 // --------------------
-const $id_HtgmuLPt0V = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_hQrtYySk28 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 __vite_ssr_exports__.default = {};
@@ -4762,10 +4688,10 @@ __vite_ssr_exports__.default = {};
 
 
 const __modules__ = {
-  "C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/nuxt/dist/app/entry": $id_LuSNNgdwh8,
+  "C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/nuxt/dist/app/entry": $id_1iuJbN69NV,
   "/node_modules/vue/dist/vue.cjs.js": $id_YPBhX5dq3F,
   "/node_modules/ohmyfetch/dist/index.mjs": $id_eAIXxFjGLW,
-  "/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/paths.mjs": $id_9B77pdqZ84,
+  "/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/paths.mjs": $id_pbTTvvLThm,
   "/node_modules/ufo/dist/index.mjs": $id_YU3gYOEqyI,
   "/node_modules/nuxt/dist/app/index.mjs": $id_NpJ0d20vMd,
   "/node_modules/nuxt/dist/app/nuxt.mjs": $id_4GnUEZ7ifE,
@@ -4791,22 +4717,22 @@ const __modules__ = {
   "/node_modules/nuxt/dist/head/runtime/index.mjs": $id_tzUUgT5kx6,
   "/node_modules/nuxt/dist/head/runtime/composables.mjs": $id_BOqVBAGCOv,
   "/node_modules/@vue/shared/dist/shared.cjs.js": $id_hSsGoupXYm,
-  "/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/css.mjs": $id_fWo8oqM3gT,
+  "/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/css.mjs": $id_UUUlcdZMd6,
   "/assets/css/tailwind.css": $id_91VI4YQFtU,
-  "/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/plugins/server.mjs": $id_YvTzo3YNrI,
+  "/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/plugins/server.mjs": $id_bJFk6taCze,
   "/node_modules/nuxt/dist/app/plugins/preload.server.mjs": $id_mHG7oNEQOP,
-  "/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/components.plugin.mjs": $id_Q3ZQK0znRJ,
+  "/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/components.plugin.mjs": $id_ndZNrTeOkG,
   "/node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs": $id_5vEgA2Fgrh,
   "/node_modules/@vueuse/head/dist/index.mjs": $id_wDImTp8t2G,
   "/node_modules/defu/dist/defu.mjs": $id_16rZclLIWW,
   "/node_modules/nuxt/dist/head/runtime/plugin.mjs": $id_omUDQe4IGe,
   "/node_modules/nuxt/dist/head/runtime/components.mjs": $id_sqKdb79FW5,
-  "/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/meta.config.mjs": $id_uazUKtcc4c,
+  "/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/meta.config.mjs": $id_mQTgwOZXH4,
   "/node_modules/nuxt/dist/pages/runtime/router.mjs": $id_oJCXe6nyyh,
   "/node_modules/nuxt/dist/pages/runtime/page.mjs": $id_X8FM3AG1sA,
   "/node_modules/nuxt/dist/pages/runtime/utils.mjs": $id_gPQzqsnHwc,
   "/node_modules/nuxt/dist/app/components/utils.mjs": $id_acUmhqj8VN,
-  "/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/routes.mjs": $id_dJHpVd8WlX,
+  "/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/routes.mjs": $id_sj5YKYdOdm,
   "/pages/filterdemo.vue?macro=true": $id_BDLyx9p1Yq,
   "/node_modules/vue/server-renderer/index.js": $id_shX6HK8fbb,
   "/@id/plugin-vue:export-helper": $id_u7hjwQB3Fl,
@@ -4819,14 +4745,14 @@ const __modules__ = {
   "/pages/mainform.vue": $id_v9Io3fpxg2,
   "/pages/mainform2.vue": $id_R3lrK1c9Ll,
   "/pages/productform.vue": $id_YS2Bc3d2xU,
-  "/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/router.options.mjs": $id_87E6BlDaFB,
-  "/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/middleware.mjs": $id_uoKe0jcF0x,
-  "/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/root-component.mjs": $id_SAEha7rJcE,
+  "/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/router.options.mjs": $id_7lgABHZ489,
+  "/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/middleware.mjs": $id_36W6gD7waQ,
+  "/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/root-component.mjs": $id_rKNlVuGBFy,
   "/node_modules/nuxt/dist/app/components/nuxt-root.vue": $id_6btoGdWLJh,
-  "/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/error-component.mjs": $id_5EvJwta8U6,
+  "/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/error-component.mjs": $id_dnV7Fuyy9S,
   "/node_modules/nuxt/dist/app/components/nuxt-error-page.vue": $id_jMbXP0vyaY,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": $id_uQ1ND2iuUo,
-  "/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/imports.mjs": $id_nU6N7xbgpP,
+  "/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/imports.mjs": $id_Q36i860Uf5,
   "/node_modules/nuxt/dist/app/compat/vue-demi.mjs": $id_qBEL58R1ls,
   "/node_modules/nuxt/dist/app/compat/capi.mjs": $id_DFcXpE295m,
   "/node_modules/nuxt/dist/pages/runtime/composables.mjs": $id_27UVWcb1VH,
@@ -4835,10 +4761,10 @@ const __modules__ = {
   "/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=true&lang.css": $id_JpEWTLBcMj,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": $id_FMi1dBhUQk,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=true&lang.css": $id_orO3Ccf7NQ,
-  "/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/app-component.mjs": $id_kBXyKeGpT4,
+  "/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/app-component.mjs": $id_IRpI2Qfy9W,
   "/node_modules/nuxt/dist/pages/runtime/app.vue": $id_bGEBDyzLuq,
   "/node_modules/nuxt/dist/app/components/layout.mjs": $id_OQA4gz7rLc,
-  "/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/layouts.mjs": $id_HtgmuLPt0V
+  "/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/layouts.mjs": $id_hQrtYySk28
 }
 
 
@@ -4926,4 +4852,4 @@ async function __instantiateModule__(url, urlStack) {
 }
 
 
-export default await __ssrLoadModule__("C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/nuxt/dist/app/entry")
+export default await __ssrLoadModule__("C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/nuxt/dist/app/entry")

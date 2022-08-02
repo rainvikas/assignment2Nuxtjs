@@ -1,25 +1,25 @@
-globalThis._importMeta_={url:import.meta.url,env:process.env};import 'file://C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/node-fetch-native/dist/polyfill.mjs';
+globalThis._importMeta_={url:import.meta.url,env:process.env};import 'file://C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/node-fetch-native/dist/polyfill.mjs';
 import { Server } from 'http';
 import { tmpdir } from 'os';
 import { join } from 'path';
 import { mkdirSync } from 'fs';
 import { parentPort, threadId } from 'worker_threads';
-import { provider, isWindows } from 'file://C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/std-env/dist/index.mjs';
-import { defineEventHandler, handleCacheHeaders, createEvent, createApp, createRouter, lazyEventHandler, eventHandler, useQuery } from 'file://C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/h3/dist/index.mjs';
-import { createFetch as createFetch$1, Headers } from 'file://C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/ohmyfetch/dist/node.mjs';
-import destr from 'file://C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/destr/dist/index.mjs';
-import { createRouter as createRouter$1 } from 'file://C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/radix3/dist/index.mjs';
-import { createCall, createFetch } from 'file://C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/unenv/runtime/fetch/index.mjs';
-import { createHooks } from 'file://C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/hookable/dist/index.mjs';
-import { hash } from 'file://C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/ohash/dist/index.mjs';
-import { parseURL, withQuery, joinURL } from 'file://C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/ufo/dist/index.mjs';
-import { createStorage } from 'file://C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/unstorage/dist/index.mjs';
-import _unstorage_drivers_fs from 'file://C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/unstorage/dist/drivers/fs.mjs';
-import { createRenderer } from 'file://C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/vue-bundle-renderer/dist/index.mjs';
-import devalue from 'file://C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/@nuxt/devalue/dist/devalue.mjs';
-import { renderToString } from 'file://C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/vue/server-renderer/index.mjs';
-import { snakeCase } from 'file://C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/node_modules/scule/dist/index.mjs';
-import htmlTemplate from 'file://C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/views/document.template.mjs';
+import { provider, isWindows } from 'file://C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/std-env/dist/index.mjs';
+import { defineEventHandler, handleCacheHeaders, createEvent, createApp, createRouter, lazyEventHandler, eventHandler, useQuery } from 'file://C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/h3/dist/index.mjs';
+import { createFetch as createFetch$1, Headers } from 'file://C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/ohmyfetch/dist/node.mjs';
+import destr from 'file://C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/destr/dist/index.mjs';
+import { createRouter as createRouter$1 } from 'file://C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/radix3/dist/index.mjs';
+import { createCall, createFetch } from 'file://C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/unenv/runtime/fetch/index.mjs';
+import { createHooks } from 'file://C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/hookable/dist/index.mjs';
+import { hash } from 'file://C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/ohash/dist/index.mjs';
+import { parseURL, withQuery, joinURL } from 'file://C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/ufo/dist/index.mjs';
+import { createStorage } from 'file://C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/unstorage/dist/index.mjs';
+import _unstorage_drivers_fs from 'file://C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/unstorage/dist/drivers/fs.mjs';
+import { createRenderer } from 'file://C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/vue-bundle-renderer/dist/index.mjs';
+import devalue from 'file://C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/@nuxt/devalue/dist/devalue.mjs';
+import { renderToString } from 'file://C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/vue/server-renderer/index.mjs';
+import { snakeCase } from 'file://C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/node_modules/scule/dist/index.mjs';
+import htmlTemplate from 'file://C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/views/document.template.mjs';
 
 const _runtimeConfig = {"app":{"baseURL":"/","buildAssetsDir":"/_nuxt/","cdnURL":""},"nitro":{"routes":{},"envPrefix":"NUXT_"},"public":{}};
 const ENV_PREFIX = "NITRO_";
@@ -78,7 +78,7 @@ function timingMiddleware(_req, res, next) {
   next();
 }
 
-const serverAssets = [{"baseName":"server","dir":"C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/server/assets"}];
+const serverAssets = [{"baseName":"server","dir":"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/server/assets"}];
 
 const assets = createStorage();
 
@@ -92,10 +92,10 @@ const useStorage = () => storage;
 
 storage.mount('/assets', assets);
 
-storage.mount('root', _unstorage_drivers_fs({"driver":"fs","base":"C:\\Users\\vikas.yadav2\\Desktop\\assignment2\\nuxtexam","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('src', _unstorage_drivers_fs({"driver":"fs","base":"C:\\Users\\vikas.yadav2\\Desktop\\assignment2\\nuxtexam\\server","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('build', _unstorage_drivers_fs({"driver":"fs","base":"C:\\Users\\vikas.yadav2\\Desktop\\assignment2\\nuxtexam\\.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('cache', _unstorage_drivers_fs({"driver":"fs","base":"C:\\Users\\vikas.yadav2\\Desktop\\assignment2\\nuxtexam\\.nuxt\\cache","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('root', _unstorage_drivers_fs({"driver":"fs","base":"C:\\Users\\vikas.yadav2\\Desktop\\Product_list\\assignment2Nuxtjs\\nuxtexam","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('src', _unstorage_drivers_fs({"driver":"fs","base":"C:\\Users\\vikas.yadav2\\Desktop\\Product_list\\assignment2Nuxtjs\\nuxtexam\\server","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('build', _unstorage_drivers_fs({"driver":"fs","base":"C:\\Users\\vikas.yadav2\\Desktop\\Product_list\\assignment2Nuxtjs\\nuxtexam\\.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('cache', _unstorage_drivers_fs({"driver":"fs","base":"C:\\Users\\vikas.yadav2\\Desktop\\Product_list\\assignment2Nuxtjs\\nuxtexam\\.nuxt\\cache","ignore":["**/node_modules/**","**/.git/**"]}));
 
 const defaultCacheOptions = {
   name: "_",
@@ -316,11 +316,11 @@ const errorHandler = (async function errorhandler(_error, event) {
   event.res.end(html);
 });
 
-const _lazy_SD7b4M = () => Promise.resolve().then(function () { return renderer$1; });
+const _lazy_olQs5c = () => Promise.resolve().then(function () { return renderer$1; });
 
 const handlers = [
-  { route: '/__nuxt_error', handler: _lazy_SD7b4M, lazy: true, middleware: false, method: undefined },
-  { route: '/**', handler: _lazy_SD7b4M, lazy: true, middleware: false, method: undefined }
+  { route: '/__nuxt_error', handler: _lazy_olQs5c, lazy: true, middleware: false, method: undefined },
+  { route: '/**', handler: _lazy_olQs5c, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {
@@ -403,8 +403,8 @@ function publicAssetsURL(...path) {
   return path.length ? joinURL(publicBase, ...path) : publicBase;
 }
 
-const getClientManifest = () => import('file://C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
-const getServerEntry = () => import('file://C:/Users/vikas.yadav2/Desktop/assignment2/nuxtexam/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
+const getClientManifest = () => import('file://C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
+const getServerEntry = () => import('file://C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
 const getSSRRenderer = lazyCachedFunction(async () => {
   const clientManifest = await getClientManifest();
   if (!clientManifest) {

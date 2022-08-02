@@ -38,20 +38,7 @@
             Product Category <b>{{this.formdata.category}}</b>
             Product Color <b>{{this.formdata.category}}</b>
          </div>
-       <!-- <div class="m-10 h-52 w-52 border-4 border-black" >
-            <img src="assets/show2.jfif" class="h-45 w-45"> 
-            product Name: <b>{{formdata.pname}}</b>
-            Product price: <b>{{formdata.price}}</b>
-            Product Category <b>{{formdata.category}}</b>
-            Product Color <b>{{formdata.category}}</b>
-        </div>
-        <div class="m-10 h-52 w-52 border-4 border-black" >
-            <img src="assets/shoe3.jfif" class="h-45 w-45">
-            product Name: <b>{{formdata.pname}}</b>
-            Product price: <b>{{formdata.price}}</b>
-            Product Category <b>{{formdata.category}}</b>
-            Product Color <b>{{formdata.category}}</b>
-        </div> -->
+       
     </div>
 </div>
 </template>
