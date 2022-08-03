@@ -1,38 +1,41 @@
 <template>
 <div>
-    
     <div class="border-solid border-2 border-black drop-shadow-md bg-gray-300">
-        <form >
-            <h1 style="color: black" class="font-bold text-3xl p-2">Shopping Product List</h1>
-            <table >
+        <form action="" method="post">
+            <h1 style="color: black" class="font-bold text-3xl p-1   text-center">Shopping Product List</h1>
+            <table class="ml-96">
                 <tr class="text-center">
                     <td><label>Product Name :</label></td>
-                    <td><input type="text" v-model="formdata.pname" class="bg-white border border-slate-300 rounded-md py-2 pl-9 pr-3 m-5"></td>
+                    <td><input type="text" v-model="formdata.pname" class="bg-white border border-slate-300 rounded-md py-2 pl-9 pr-3 m-5" @change="validationName" required></td>
                 </tr>
                 <tr>
                     <td><label>Product Price :</label></td>
-                    <td><input type="text" v-model="formdata.price" class="bg-white border border-slate-300 rounded-md py-2 pl-9 pr-3 m-5"></td>
+                    <td><input type="number" v-model="formdata.price" class="bg-white border border-slate-300 rounded-md py-2 pl-9 pr-3 m-5" @change="validationPrice" required></td>
                 </tr>
                 <tr>
                     <td><label>Product Category:</label></td>
-                    <td><input type="text" v-model="formdata.category" class="bg-white border border-slate-300 rounded-md py-2 pl-9 pr-3 m-5"></td>
+                    <td><input type="text" v-model="formdata.category" class="bg-white border border-slate-300 rounded-md py-2 pl-9 pr-3 m-5" @change="validationCategory" required></td>
                 </tr>
                 <tr>
                     <td><label>Product Color :</label></td>
-                    <td><input type="text" v-model="formdata.color" class="bg-white border border-slate-300 rounded-md py-2 pl-9 pr-3 m-5"></td>
+                    <td><input type="text" v-model="formdata.color" class="bg-white border border-slate-300 rounded-md py-2 pl-9 pr-3 m-5" @change="validationColor" required></td>
                 </tr>
                 <tr>
                     <td>
-                        <button type="button" class=" border-solid font-extrabold rounded border-2 border-black p-3 bg-gray-300 bg-hover-black" @click="login">
-                            Submit
+                        <button type="button" class="mb-5 border-solid font-extrabold rounded border-2 border-black p-3 bg-gray-300 bg-hover-black" @click="login">
+                            Add To Cart
                         </button>
                     </td>
                 </tr>
             </table>
         </form>
     </div>
-   
-    <table class="border-2  bg-gray-100 mr-60 ml-60 p-6 border-solid border-black rounded-md mt-4 ">
+    
+        <div>
+            <h1 class="font-semibold text-center text-3xl p-2"><b>My Cart</b></h1>
+        </div>
+    <div >
+        <table class="border-2  bg-gray-100 mr-60 ml-60 p-6 border-solid border-black rounded-md mt-4">
         <tr>
             <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">ID</td>
             <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Image</td>
@@ -54,9 +57,9 @@
             <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8"><button class=" border-2 font-bold rounded-md bg-green-500 text-blue-500 hover:bg-black  text-white p-2 text-center"  @click="editIndex(i)">Edit</button></td>
         </tr>
     </table>
+    </div>
 </div>
 </template>
-
 <script>
 export default {
     name: 'formdataproduct',
@@ -78,6 +81,42 @@ export default {
         },
         login(event) {
             event.preventDefault();
+            //validation
+            if( !isNaN(this.formdata.pname) || this.formdata.pname==null || this.formdata.pname==""){
+                    alert("Please Enter Name");
+                    // console.log("Please Enter Name");
+                    this.resetForm();
+            }else{
+                console.log(this.formdata.pname);
+                    // alert("Name is valid");
+            }
+            // //valid price
+            // if( !isNaN(this.formdata.price) || this.formdata.price==null || this.formdata.price==""){
+            //         alert("Please Enter price");
+            //         // console.log("Please Enter price");
+            //         this.resetForm();
+            // }else{
+            //     console.log(this.formdata.price);
+            //         // alert("price is valid");
+            // }
+            // //valid cate
+            // if( !isNaN(this.formdata.category) || this.formdata.category==null || this.formdata.category==""){
+            //         alert("Please Enter category");
+            //         // console.log("Please Enter category");
+            //         this.resetForm();
+            // }else{
+            //     console.log(this.formdata.category);
+            //         // alert("categoy is valid");
+            // }
+            // //valid color
+            // if( !isNaN(this.formdata.color) || this.formdata.color==null || this.formdata.color==""){
+            //         alert("Please Enter color");
+            //         // console.log("Please Enter color");
+            //         this.resetForm();
+            // }else{
+            //     console.log(this.formdata.color);
+            //         // alert("Name is color");
+            // }
             if (this.isEdit == true) {
                 this.myarr[this.indexEdit] = this.formdata;
                 this.isEdit = false;
@@ -107,6 +146,50 @@ export default {
             this.isEdit = true;
             this.indexEdit = index;
         },
+        // validationName(){
+        //      //  // Validation for Name
+        //     // if(this.userData.name==''){
+        //     if( !isNaN(this.formdata.pname) || this.formdata.pname==null || this.formdata.pname==""){
+        //             alert("Please Enter Name");
+        //             // console.log("Please Enter Name");
+        //             this.resetForm();
+        //     }else{
+        //         console.log(this.formdata.pname);
+        //             // alert("Name is valid");
+        //     }
+        // },
+        // validationPrice(){
+        //      //  // Validation for Name
+        //     // if(this.userData.name==''){
+        //     if( !isNaN(this.formdata.price) || this.formdata.price==null || this.formdata.price==""){
+        //             alert("Please Enter Name");
+        //             // console.log("Please Enter Price");
+        //             this.resetForm();
+        //     }else{
+        //         console.log(this.formdata.price);
+        //             // alert("Price is valid");
+        //     }
+        // },
+        // validationCategory(){
+        //     if( !isNaN(this.formdata.category) || this.formdata.category==null || this.formdata.category==""){
+        //             alert("Please Enter Name");
+        //             // console.log("Please Enter Category");
+        //             this.resetForm();
+        //     }else{
+        //         console.log(this.formdata.pname);
+        //             // alert("Category is valid");
+        //     }
+        // },
+        // validationColor(){
+        //     if( !isNaN(this.formdata.color) || this.formdata.color==null || this.formdata.color==""){
+        //             alert("Please Enter Name");
+        //             // console.log("Please Enter Color");
+        //             this.resetForm();
+        //     }else{
+        //         console.log(this.formdata.color);
+        //             // alert("Color is valid");
+        //     }
+        // }
     }
 }
 </script>

@@ -5,32 +5,7 @@
 
     <nav class="text-center font-bold text-xl mt-8 ">
         <a>
-            <select name="Category" id="watches" class="bg-gray-300">
-                <option value="watch">Select Watches</option>
-                <option value="watch">Titan</option>
-                <option value="watch">Puma</option>
-                <option value="watch">Ladies Wear</option>
-                <option value="watch">G-Shock</option>
-                <option value="watch">Rolex</option>
-            </select>
-            <select name="Category" id="mobile" class="bg-gray-300">
-                <option value="mobile">Select Mobiles</option>
-                <option value="mobile">Apple Iphone</option>
-                <option value="mobile">Oneplus</option>
-                <option value="mobile">Oppo</option>
-                <option value="mobile">Vivo</option>
-                <option value="mobile">Redmi</option>
-                <option value="mobile">Samsung</option>
-            </select>
-            <select name="Category" id="earphone" class="bg-gray-300">
-                <option value="earphone">Select Earphone</option>
-                <option value="earphone">Apple Airpods</option>
-                <option value="earphone">Oneplus Buds</option>
-                <option value="earphone">Oppo Earphone</option>
-                <option value="earphone">Vivo Earphones</option>
-                <option value="earphone">Redmi Earphone</option>
-                <option value="earphone">Samsung Earphones</option>
-            </select>
+            
             <select name="Category" id="shoes" class="bg-gray-300">
                 <option value="shoes">Select Shoes</option>
                 <option value="shoes">Formal Shoes</option>
@@ -41,8 +16,8 @@
                 <option value="shoes">Loafers</option>
             </select><br>
             <div class="inline-flex p-4 mt-4">
-                <div class="mr-8 border-2 px-2 border-black rounded-md"><a href="productform">Add Products</a></div>
-                <div class="ml-8 border-2 px-2 border-black rounded-md"><a href="mainform2">Shoe Category</a></div>
+                <div class="mr-8 border-2 px-2 border-black rounded-md"><a href="productform">Filter/Search</a></div>
+                <div class="ml-8 border-2 px-2 border-black rounded-md"><a href="mainform2">Add Product</a></div>
             </div>
         </a>
     </nav>
@@ -52,8 +27,8 @@
                 <td class="text-center p-2">
                     <div>
                         <img src="assets/show1.jfif" alt="showimage" class="px-64  items-center ">
-                        <h3 class="font-bold text-xl">Shoes</h3>
-                        <p><b>This is Demo Show of Nike Brand</b></p>
+                        <h3 class="font-bold text-xl">Puma</h3>
+                        <p><b>This is Demo Show of Puma Brand</b></p>
                         <h5><b>Rs 10,000/- only</b></h5>
 
                         <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br>
@@ -63,7 +38,7 @@
                 <td class="p-2">
                     <div class="content text-center ">
                         <img src="assets/show2.jfif" alt="showimage" class="px-64 items-center ">
-                        <h3 class="font-bold text-xl">Shoes</h3>
+                        <h3 class="font-bold text-xl">Nike</h3>
                         <p><b>This is 2nd Demo Show of Nike Brand</b></p>
                         <h5><b>Rs 11,200/- only</b></h5>
                         <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br>
@@ -75,8 +50,8 @@
                 <td class="p-2">
                     <div class="content text-center">
                         <img src="assets/shoe3.jfif" alt="showimage" class="px-64  items-center">
-                        <h3 class="font-bold text-xl">Shoes</h3>
-                        <p><b>This is 3rd Demo Show of Nike Brand</b></p>
+                        <h3 class="font-bold text-xl">Bata</h3>
+                        <p><b>This is 3rd Demo Show of Bata Brand</b></p>
                         <h5><b>Rs 11,500/- only</b></h5>
                         <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br>
                         <button class="buy-3 border-2 px-2  border-black rounded-md">Buy Now</button>
@@ -85,8 +60,8 @@
                 <td class="p-2">
                     <div class="content text-center">
                         <img src="assets/shoe4.jfif" alt="showimage" class="px-64  items-center">
-                        <h3 class="font-bold text-xl">Shoes</h3>
-                        <p><b>This is 4th Demo Show of Nike Brand</b></p>
+                        <h3 class="font-bold text-xl">RedChief</h3>
+                        <p><b>This is 4th Demo Show of RedChief Brand</b></p>
                         <h5><b>Rs 13,200/- only</b></h5>
                         <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br>
                         <button class="buy-4 border-2 px-2  border-black rounded-md">Buy Now</button>
