@@ -32,7 +32,7 @@
                         <h5><b>Rs 10,000/- only</b></h5>
 
                         <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br>
-                        <button class="buy-1 border-2 px-2  border-black rounded-md">Buy Now</button>
+                        <!-- <button class="buy-1 border-2 px-2  border-black rounded-md">Buy Now</button> -->
                     </div>
                 </td>
                 <td class="p-2">
@@ -42,7 +42,7 @@
                         <p><b>This is 2nd Demo Show of Nike Brand</b></p>
                         <h5><b>Rs 11,200/- only</b></h5>
                         <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br>
-                        <button class="buy-2 border-2 px-2  border-black rounded-md">Buy Now</button>
+                        <!-- <button class="buy-2 border-2 px-2  border-black rounded-md">Buy Now</button> -->
                     </div>
                 </td>
             </tr>
@@ -54,7 +54,7 @@
                         <p><b>This is 3rd Demo Show of Bata Brand</b></p>
                         <h5><b>Rs 11,500/- only</b></h5>
                         <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br>
-                        <button class="buy-3 border-2 px-2  border-black rounded-md">Buy Now</button>
+                        <!-- <button class="buy-3 border-2 px-2  border-black rounded-md">Buy Now</button> -->
                     </div>
                 </td>
                 <td class="p-2">
@@ -64,7 +64,7 @@
                         <p><b>This is 4th Demo Show of RedChief Brand</b></p>
                         <h5><b>Rs 13,200/- only</b></h5>
                         <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br>
-                        <button class="buy-4 border-2 px-2  border-black rounded-md">Buy Now</button>
+                        <!-- <button class="buy-4 border-2 px-2  border-black rounded-md">Buy Now</button> -->
                     </div>
                 </td>
             </tr>
@@ -73,4 +73,3 @@
 
 </div>
 </template>
-

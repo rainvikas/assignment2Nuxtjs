@@ -1,8 +1,9 @@
 <template>
 <div>
-    <div class="border-solid border-2 border-black drop-shadow-md bg-gray-300">
+    
+    <div class="border-solid border-2 border-black drop-shadow-md ">
         <form action="" method="post">
-            <h1 style="color: black" class="font-bold text-3xl p-1   text-center">Shopping Product List</h1>
+            <h1 style="color: black" class="font-bold text-3xl p-1 bg-blue-300 text-center">Shopping Product List</h1>
             <table class="ml-96">
                 <tr class="text-center">
                     <td><label>Product Name :</label></td>
@@ -32,7 +33,7 @@
     </div>
     
         <div>
-            <h1 class="font-semibold text-center text-3xl p-2"><b>My Cart</b></h1>
+            <h1 class="font-semibold text-center text-3xl p-2 bg-blue-300"><b>My Cart</b></h1>
         </div>
     <div >
         <table class="border-2  bg-gray-100 mr-60 ml-60 p-6 border-solid border-black rounded-md mt-4">
@@ -60,6 +61,7 @@
     </div>
 </div>
 </template>
+
 <script>
 export default {
     name: 'formdataproduct',
@@ -90,33 +92,33 @@ export default {
                 console.log(this.formdata.pname);
                     // alert("Name is valid");
             }
-            // //valid price
-            // if( !isNaN(this.formdata.price) || this.formdata.price==null || this.formdata.price==""){
-            //         alert("Please Enter price");
-            //         // console.log("Please Enter price");
-            //         this.resetForm();
-            // }else{
-            //     console.log(this.formdata.price);
-            //         // alert("price is valid");
-            // }
-            // //valid cate
-            // if( !isNaN(this.formdata.category) || this.formdata.category==null || this.formdata.category==""){
-            //         alert("Please Enter category");
-            //         // console.log("Please Enter category");
-            //         this.resetForm();
-            // }else{
-            //     console.log(this.formdata.category);
-            //         // alert("categoy is valid");
-            // }
-            // //valid color
-            // if( !isNaN(this.formdata.color) || this.formdata.color==null || this.formdata.color==""){
-            //         alert("Please Enter color");
-            //         // console.log("Please Enter color");
-            //         this.resetForm();
-            // }else{
-            //     console.log(this.formdata.color);
-            //         // alert("Name is color");
-            // }
+            //vali price
+            if( !isNaN(this.formdata.price) || this.formdata.price==null || this.formdata.price==""){
+                    alert("Please Enter price");
+                    // console.log("Please Enter price");
+                    this.resetForm();
+            }else{
+                console.log(this.formdata.price);
+                    // alert("price is valid");
+            }
+            //vali cate
+            if( !isNaN(this.formdata.category) || this.formdata.category==null || this.formdata.category==""){
+                    alert("Please Enter category");
+                    // console.log("Please Enter category");
+                    this.resetForm();
+            }else{
+                console.log(this.formdata.category);
+                    // alert("categoy is valid");
+            }
+            //vali color
+            if( !isNaN(this.formdata.color) || this.formdata.color==null || this.formdata.color==""){
+                    alert("Please Enter color");
+                    // console.log("Please Enter color");
+                    this.resetForm();
+            }else{
+                console.log(this.formdata.color);
+                    // alert("Name is color");
+            }
             if (this.isEdit == true) {
                 this.myarr[this.indexEdit] = this.formdata;
                 this.isEdit = false;
@@ -146,50 +148,50 @@ export default {
             this.isEdit = true;
             this.indexEdit = index;
         },
-        // validationName(){
-        //      //  // Validation for Name
-        //     // if(this.userData.name==''){
-        //     if( !isNaN(this.formdata.pname) || this.formdata.pname==null || this.formdata.pname==""){
-        //             alert("Please Enter Name");
-        //             // console.log("Please Enter Name");
-        //             this.resetForm();
-        //     }else{
-        //         console.log(this.formdata.pname);
-        //             // alert("Name is valid");
-        //     }
-        // },
-        // validationPrice(){
-        //      //  // Validation for Name
-        //     // if(this.userData.name==''){
-        //     if( !isNaN(this.formdata.price) || this.formdata.price==null || this.formdata.price==""){
-        //             alert("Please Enter Name");
-        //             // console.log("Please Enter Price");
-        //             this.resetForm();
-        //     }else{
-        //         console.log(this.formdata.price);
-        //             // alert("Price is valid");
-        //     }
-        // },
-        // validationCategory(){
-        //     if( !isNaN(this.formdata.category) || this.formdata.category==null || this.formdata.category==""){
-        //             alert("Please Enter Name");
-        //             // console.log("Please Enter Category");
-        //             this.resetForm();
-        //     }else{
-        //         console.log(this.formdata.pname);
-        //             // alert("Category is valid");
-        //     }
-        // },
-        // validationColor(){
-        //     if( !isNaN(this.formdata.color) || this.formdata.color==null || this.formdata.color==""){
-        //             alert("Please Enter Name");
-        //             // console.log("Please Enter Color");
-        //             this.resetForm();
-        //     }else{
-        //         console.log(this.formdata.color);
-        //             // alert("Color is valid");
-        //     }
-        // }
+        validationName(){
+             //  // Validation for Name
+            // if(this.userData.name==''){
+            if( !isNaN(this.formdata.pname) || this.formdata.pname==null || this.formdata.pname==""){
+                    alert("Please Enter Name");
+                    // console.log("Please Enter Name");
+                    this.resetForm();
+            }else{
+                console.log(this.formdata.pname);
+                    // alert("Name is valid");
+            }
+        },
+        validationPrice(){
+             //  // Validation for Name
+            // if(this.userData.name==''){
+            if( !isNaN(this.formdata.price) || this.formdata.price==null || this.formdata.price==""){
+                    alert("Please Enter Price");
+                    // console.log("Please Enter Price");
+                    this.resetForm();
+            }else{
+                console.log(this.formdata.price);
+                    // alert("Price is valid");
+            }
+        },
+        validationCategory(){
+            if( !isNaN(this.formdata.category) || this.formdata.category==null || this.formdata.category==""){
+                    alert("Please Enter Name");
+                    // console.log("Please Enter Category");
+                    this.resetForm();
+            }else{
+                console.log(this.formdata.category);
+                    // alert("Category is valid");
+            }
+        },
+        validationColor(){
+            if( !isNaN(this.formdata.color) || this.formdata.color==null || this.formdata.color==""){
+                    alert("Please Enter Color");
+                    // console.log("Please Enter Color");
+                    this.resetForm();
+            }else{
+                console.log(this.formdata.color);
+                    // alert("Color is valid");
+            }
+        }
     }
 }
 </script>

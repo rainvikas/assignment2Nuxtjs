@@ -1,177 +1,84 @@
 <template>
-<div>
-    <title>
-        Productlist Project
-    </title>
-    <h1 class="text-center font-bold text-5xl mt-4"> Products Cart</h1>
-    <hr class="mt-5 border-1 border-black">
-    <div class="border-4 bg-gray-100 mr-60 ml-60 p-6 border-solid border-black rounded-md mt-6 ">
-        <form action="">
-            <div class="p-1 ">
-                <label class="font-bold text-xl mr-16" for="pname">Product Name</label>
-                <input  class="ml-16 border-2 px-32" type="text" v-model="formdata.pname" name="pname" id="pname">
-            </div>
-            <div class="p-1 ">
-                <label class="font-bold text-xl mr-16" for="price">Product Price</label>
-                <input class="ml-16 border-2 px-32"  type="number" v-model="formdata.price" name="price" id="price">
-            </div>
-            <div class="p-1 ">
-                <label class="font-bold text-xl mr-16" for="category">Product Category</label>
-                <input class="ml-16 border-2 px-32"   type="text" v-model="formdata.category" name="category" id="category">
-            </div>
-            <div class="p-1 ">
-                <label class="font-bold text-xl mr-16" for="color">Product color</label>
-                <input class="ml-16 border-2 px-32"  type="text" v-model="formdata.color" name="color" id="color">
-            </div>
-            <div class="p-1  mt-6">
-                <button  class="ml-16 border-2 font-bold mr-16 rounded-md bg-black text-blue-500 hover:bg-black hover: text-white p-2 text-center" type="submit" @click="addpro">Add Product</button>
-                <button class="ml-16 border-2 font-bold mr-16 rounded-md bg-black text-blue-500 hover:bg-black  text-white p-2 text-center" type="reset">Reset</button>
-            </div>
+<div class=" grid gap-x-7  grid-cols-3 h-screen">
+    <div class="border-solid border-2 border-black drop-shadow-md bg-gray-300">
+        <form>
+            <h1 style="color: black" class="font-bold text-3xl p-6">Shopping Product List</h1>
+            <table>
+                <tr>
+                    <td><label>Product Name :</label></td>
+                    <td><input type="text" v-model="formdata.pname" class="bg-white border border-slate-300 rounded-md py-2 pl-9 pr-3 m-5"></td>
+                </tr>
+                <tr>
+                    <td><label>Product Price :</label></td>
+                    <td><input type="text" v-model="formdata.price" class="bg-white border border-slate-300 rounded-md py-2 pl-9 pr-3 m-5"></td>
+                </tr>
+                <tr>
+                    <td><label>Product Category:</label></td>
+                    <td><input type="text" v-model="formdata.category" class="bg-white border border-slate-300 rounded-md py-2 pl-9 pr-3 m-5"></td>
+                </tr>
+                <tr>
+                    <td><label>Product Color :</label></td>
+                    <td><input type="text" v-model="formdata.color" class="bg-white border border-slate-300 rounded-md py-2 pl-9 pr-3 m-5"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="button" class=" border-solid font-extrabold rounded border-2 border-black p-3 bg-gray-300 bg-hover-black" v-on:click="createNewCard()">
+                            Submit
+                        </button>
+                    </td>
+                </tr>
+            </table>
         </form>
-        <table border="2" class="border-2  bg-gray-100 mr-60 ml-32 p-6 border-solid border-black rounded-md mt-8 ">
-            <tr>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product ID</td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Name </td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Price</td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Category</td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Color</td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Delete</td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Edit Data</td>
-            </tr>
-            <tr v-for="(item,i) in myarr" :key="item">
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8">{{item.id = i + 1}}</td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8">{{item.pname}}</td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8">{{item.price}}</td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8">{{item.category}}</td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8">{{item.color}}</td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8"><button class=" border-2 font-bold rounded-md bg-red-300 text-blue-500 hover:bg-black  text-white p-2 text-center" @click="deletepro(i)">Delete Product</button></td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8"><button class=" border-2 font-bold rounded-md bg-red-300 text-blue-500 hover:bg-black  text-white p-2 text-center" @click="editpro(i)">Edit</button></td>
-            </tr>
-        </table>
-        <div>
-            <label class="font-bold text-xl mr-16" for="searchpro">Search Product</label>
-            <input  @keyup="userFindByAddress(userAddress)" v-model="this.userAddress" class="ml-16 border-2 px-32" type="text" name="searchpro" id="searchpro">
-            <button class=" border-2 font-bold rounded-md bg-red-300 text-blue-500 hover:bg-black  text-white p-2 text-center" type="search" @click="this.userFindByAddress(userAddress)">Search</button>
-        </div>
-        <!-- 2nd table  -->
-        <table border="2" class="border-2  bg-gray-100 mr-60 ml-32 p-6 border-solid border-black rounded-md mt-8 ">
-            <tr>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product ID</td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Name </td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Price</td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Category</td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Color</td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Delete</td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Edit Data</td>
-            </tr>
-            <tr v-for="(prod,i) in userFound" :key="prod">
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8">{{prod.id = i + 1}}</td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8">{{prod.pname}}</td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8">{{prod.price}}</td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8">{{prod.category}}</td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8">{{prod.color}}</td>
-                <!-- <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8"><button class=" border-2 font-bold rounded-md bg-red-300 text-blue-500 hover:bg-black  text-white p-2 text-center" @click="deletepro(i)">Delete Product</button></td> -->
-                <!-- <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8"><button class=" border-2 font-bold rounded-md bg-red-300 text-blue-500 hover:bg-black  text-white p-2 text-center" @click="editpro(i)">Edit</button></td> -->
-            </tr>
-        </table>
-        
+    </div>
+    <div class="bg-gray-300 col-span-2 flex" v-for="(prod) in myarr" :key="prod">   
+        <div class="m-10 h-52 w-52 border-4 border-black" >
+            <img src="assets/show1.jfif" class="h-45 w-45">
+            product Name: <b>{{this.formdata.pname}}</b>
+            Product price: <b>{{this.formdata.price}}</b>
+            Product Category <b>{{this.formdata.category}}</b>
+            Product Color <b>{{this.formdata.category}}</b>
+         </div>
+      
     </div>
 </div>
 </template>
 
 <script>
 export default {
-    name: "product-data",
+    name: 'formdataproduct',
     data() {
         return {
-            isEdit: false,
-            indexEdit: -1,
-            userAddress : "",
             myarr: [],
             formdata: {
-                id: 0,
                 pname: "",
                 price : "",
-                category : "",
+                category: "",
                 color : "",
-            }
-        }
+            },
+        };
     },
-    methods : {
-         addpro(event){
+    methods: {
+        createNewCard() {
+            this.myarr.push(this.formdata);
+        },
+        login(event){
             event.preventDefault();
-            if(this.isEdit == true)
-            {
-              this.myarr[this.indexEdit] = this.formdata;
-              this.isEdit = false;
-              this.indexEdit = -1;
-            }
-            else
-            {
-              this.myarr.push(this.formdata);
+            if (this.isEdit == true) {
+                this.myarr[this.indexEdit] = this.formdata;
+                this.isEdit = false;
+                this.indexEdit = -1;
+            } else {
+                this.myarr.push(this.formdata);
             }
             this.formdata = {
                 id: 0,
-                pname: "",
+                pname : "",
                 price : "",
                 category : "",
-                color : "",
+                color: "",
             }
             console.log("Formdata is :", this.myarr);
-         },
-         deletepro(index) {
-            this.myarr.splice(index, 1);
-        },
-         editpro(index){
-          this.formdata.pname = this.myarr[index].pname;
-          this.formdata.price = this.myarr[index].price;
-          this.formdata.category = this.myarr[index].category;
-          this.formdata.color = this.myarr[index].color;
-          this.isEdit = true;
-          this.indexEdit = index ;
-        },
-        userpro(userName){
-            // user1 = this.userName
-            // if(this.allUserData.filter(e => e.firstName == userName})){
-            //     alert("user Found" + e.firstName+ ""+e.lastName);
-            // }
-            console.log(userName);
-            this.userFound = this.myarr.filter((e) => {
-                if(e.pname == userName){
-                    // this.userFound.push(e);
-                    console.log(e);
-                    return e;
-                    // alert("user Found" + e.firstName+ ""+e.lastName);
-                }
-                
-            });
-            // console.log(find1);
-            console.log(this.userFound);
-        },
-        userFindByAddress(userAddress){
-            // console.log(userAddress);
-            this.userFound = this.myarr.filter((e) => {
-                if(e.pname == userAddress)
-                
-                this.pname1 = userAddress.toLocaleLowerCase();
-                this.pname2 = e.pname.toLocaleLowerCase();
-
-                 this.price1 = userAddress.toLocaleLowerCase();
-                this.price2 = e.price.toLocaleLowerCase();
-
-                 this.category1 = userAddress.toLocaleLowerCase();
-                this.category2 = e.category.toLocaleLowerCase();
-
-                 this.color1 = userAddress.toLocaleLowerCase();
-                this.color2 = e.color.toLocaleLowerCase();
-
-                if(this.pname2.startsWith(this.pname1) || this.price2.startsWith(this.price1) || this.category2.startsWith(this.category1) || this.color2.startsWith(this.color1)){
-                    console.log(e);
-                    return e;
-                }
-            });
-            console.log(this.userFound);
-        },
+        }
     }
 }
 </script>
