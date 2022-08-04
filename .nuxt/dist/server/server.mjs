@@ -1470,7 +1470,7 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/assets/css/tailwind.cs
 
 // --------------------
 const $id_91VI4YQFtU = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "/*\n! tailwindcss v3.1.7 | MIT License | https://tailwindcss.com\n*//*\n1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)\n2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)\n*/*,\n::before,\n::after {\n  box-sizing: border-box; /* 1 */\n  border-width: 0; /* 2 */\n  border-style: solid; /* 2 */\n  border-color: #e5e7eb; /* 2 */\n}::before,\n::after {\n  --tw-content: '';\n}/*\n1. Use a consistent sensible line-height in all browsers.\n2. Prevent adjustments of font size after orientation changes in iOS.\n3. Use a more readable tab size.\n4. Use the user's configured `sans` font-family by default.\n*/html {\n  line-height: 1.5; /* 1 */\n  -webkit-text-size-adjust: 100%; /* 2 */\n  -moz-tab-size: 4; /* 3 */\n  -o-tab-size: 4;\n     tab-size: 4; /* 3 */\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; /* 4 */\n}/*\n1. Remove the margin in all browsers.\n2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.\n*/body {\n  margin: 0; /* 1 */\n  line-height: inherit; /* 2 */\n}/*\n1. Add the correct height in Firefox.\n2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)\n3. Ensure horizontal rules are visible by default.\n*/hr {\n  height: 0; /* 1 */\n  color: inherit; /* 2 */\n  border-top-width: 1px; /* 3 */\n}/*\nAdd the correct text decoration in Chrome, Edge, and Safari.\n*/abbr:where([title]) {\n  -webkit-text-decoration: underline dotted;\n          text-decoration: underline dotted;\n}/*\nRemove the default font size and weight for headings.\n*/h1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-size: inherit;\n  font-weight: inherit;\n}/*\nReset links to optimize for opt-in styling instead of opt-out.\n*/a {\n  color: inherit;\n  text-decoration: inherit;\n}/*\nAdd the correct font weight in Edge and Safari.\n*/b,\nstrong {\n  font-weight: bolder;\n}/*\n1. Use the user's configured `mono` font family by default.\n2. Correct the odd `em` font sizing in all browsers.\n*/code,\nkbd,\nsamp,\npre {\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace; /* 1 */\n  font-size: 1em; /* 2 */\n}/*\nAdd the correct font size in all browsers.\n*/small {\n  font-size: 80%;\n}/*\nPrevent `sub` and `sup` elements from affecting the line height in all browsers.\n*/sub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}sub {\n  bottom: -0.25em;\n}sup {\n  top: -0.5em;\n}/*\n1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)\n2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)\n3. Remove gaps between table borders by default.\n*/table {\n  text-indent: 0; /* 1 */\n  border-color: inherit; /* 2 */\n  border-collapse: collapse; /* 3 */\n}/*\n1. Change the font styles in all browsers.\n2. Remove the margin in Firefox and Safari.\n3. Remove default padding in all browsers.\n*/button,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit; /* 1 */\n  font-size: 100%; /* 1 */\n  font-weight: inherit; /* 1 */\n  line-height: inherit; /* 1 */\n  color: inherit; /* 1 */\n  margin: 0; /* 2 */\n  padding: 0; /* 3 */\n}/*\nRemove the inheritance of text transform in Edge and Firefox.\n*/button,\nselect {\n  text-transform: none;\n}/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Remove default button styles.\n*/button,\n[type='button'],\n[type='reset'],\n[type='submit'] {\n  -webkit-appearance: button; /* 1 */\n  background-color: transparent; /* 2 */\n  background-image: none; /* 2 */\n}/*\nUse the modern Firefox focus style for all focusable elements.\n*/:-moz-focusring {\n  outline: auto;\n}/*\nRemove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)\n*/:-moz-ui-invalid {\n  box-shadow: none;\n}/*\nAdd the correct vertical alignment in Chrome and Firefox.\n*/progress {\n  vertical-align: baseline;\n}/*\nCorrect the cursor style of increment and decrement buttons in Safari.\n*/::-webkit-inner-spin-button,\n::-webkit-outer-spin-button {\n  height: auto;\n}/*\n1. Correct the odd appearance in Chrome and Safari.\n2. Correct the outline style in Safari.\n*/[type='search'] {\n  -webkit-appearance: textfield; /* 1 */\n  outline-offset: -2px; /* 2 */\n}/*\nRemove the inner padding in Chrome and Safari on macOS.\n*/::-webkit-search-decoration {\n  -webkit-appearance: none;\n}/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Change font properties to `inherit` in Safari.\n*/::-webkit-file-upload-button {\n  -webkit-appearance: button; /* 1 */\n  font: inherit; /* 2 */\n}/*\nAdd the correct display in Chrome and Safari.\n*/summary {\n  display: list-item;\n}/*\nRemoves the default spacing and border for appropriate elements.\n*/blockquote,\ndl,\ndd,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nhr,\nfigure,\np,\npre {\n  margin: 0;\n}fieldset {\n  margin: 0;\n  padding: 0;\n}legend {\n  padding: 0;\n}ol,\nul,\nmenu {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}/*\nPrevent resizing textareas horizontally by default.\n*/textarea {\n  resize: vertical;\n}/*\n1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)\n2. Set the default placeholder color to the user's configured gray 400 color.\n*/input::-moz-placeholder, textarea::-moz-placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}input::placeholder,\ntextarea::placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}/*\nSet the default cursor for buttons.\n*/button,\n[role=\"button\"] {\n  cursor: pointer;\n}/*\nMake sure disabled buttons don't get the pointer cursor.\n*/:disabled {\n  cursor: default;\n}/*\n1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)\n2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)\n   This can trigger a poorly considered lint error in some tools but is included by design.\n*/img,\nsvg,\nvideo,\ncanvas,\naudio,\niframe,\nembed,\nobject {\n  display: block; /* 1 */\n  vertical-align: middle; /* 2 */\n}/*\nConstrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)\n*/img,\nvideo {\n  max-width: 100%;\n  height: auto;\n}*, ::before, ::after {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n}::-webkit-backdrop {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n}::backdrop {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n}.col-span-2 {\n  grid-column: span 2 / span 2;\n}.m-5 {\n  margin: 1.25rem;\n}.m-10 {\n  margin: 2.5rem;\n}.mt-8 {\n  margin-top: 2rem;\n}.mt-6 {\n  margin-top: 1.5rem;\n}.mt-4 {\n  margin-top: 1rem;\n}.mt-5 {\n  margin-top: 1.25rem;\n}.mr-60 {\n  margin-right: 15rem;\n}.ml-60 {\n  margin-left: 15rem;\n}.mr-16 {\n  margin-right: 4rem;\n}.ml-16 {\n  margin-left: 4rem;\n}.ml-8 {\n  margin-left: 2rem;\n}.ml-32 {\n  margin-left: 8rem;\n}.ml-2 {\n  margin-left: 0.5rem;\n}.ml-96 {\n  margin-left: 24rem;\n}.mb-5 {\n  margin-bottom: 1.25rem;\n}.mr-8 {\n  margin-right: 2rem;\n}.flex {\n  display: flex;\n}.inline-flex {\n  display: inline-flex;\n}.table {\n  display: table;\n}.grid {\n  display: grid;\n}.h-screen {\n  height: 100vh;\n}.h-52 {\n  height: 13rem;\n}.w-52 {\n  width: 13rem;\n}.grid-cols-3 {\n  grid-template-columns: repeat(3, minmax(0, 1fr));\n}.items-center {\n  align-items: center;\n}.justify-between {\n  justify-content: space-between;\n}.gap-x-7 {\n  -moz-column-gap: 1.75rem;\n       column-gap: 1.75rem;\n}.rounded-md {\n  border-radius: 0.375rem;\n}.rounded {\n  border-radius: 0.25rem;\n}.border-2 {\n  border-width: 2px;\n}.border-4 {\n  border-width: 4px;\n}.border {\n  border-width: 1px;\n}.border-b {\n  border-bottom-width: 1px;\n}.border-solid {\n  border-style: solid;\n}.border-black {\n  --tw-border-opacity: 1;\n  border-color: rgb(0 0 0 / var(--tw-border-opacity));\n}.border-slate-300 {\n  --tw-border-opacity: 1;\n  border-color: rgb(203 213 225 / var(--tw-border-opacity));\n}.border-x-black {\n  --tw-border-opacity: 1;\n  border-left-color: rgb(0 0 0 / var(--tw-border-opacity));\n  border-right-color: rgb(0 0 0 / var(--tw-border-opacity));\n}.bg-slate-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(203 213 225 / var(--tw-bg-opacity));\n}.bg-blue-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(191 219 254 / var(--tw-bg-opacity));\n}.bg-gray-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(209 213 219 / var(--tw-bg-opacity));\n}.bg-blue-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(147 197 253 / var(--tw-bg-opacity));\n}.bg-gray-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(243 244 246 / var(--tw-bg-opacity));\n}.bg-black {\n  --tw-bg-opacity: 1;\n  background-color: rgb(0 0 0 / var(--tw-bg-opacity));\n}.bg-green-500 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(34 197 94 / var(--tw-bg-opacity));\n}.bg-red-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(252 165 165 / var(--tw-bg-opacity));\n}.bg-white {\n  --tw-bg-opacity: 1;\n  background-color: rgb(255 255 255 / var(--tw-bg-opacity));\n}.bg-indigo-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(165 180 252 / var(--tw-bg-opacity));\n}.bg-slate-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(226 232 240 / var(--tw-bg-opacity));\n}.bg-gray-600 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(75 85 99 / var(--tw-bg-opacity));\n}.bg-gray-500 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(107 114 128 / var(--tw-bg-opacity));\n}.bg-blue-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(219 234 254 / var(--tw-bg-opacity));\n}.bg-blue-500 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(59 130 246 / var(--tw-bg-opacity));\n}.p-2 {\n  padding: 0.5rem;\n}.p-4 {\n  padding: 1rem;\n}.p-1 {\n  padding: 0.25rem;\n}.p-6 {\n  padding: 1.5rem;\n}.p-3 {\n  padding: 0.75rem;\n}.px-64 {\n  padding-left: 16rem;\n  padding-right: 16rem;\n}.px-2 {\n  padding-left: 0.5rem;\n  padding-right: 0.5rem;\n}.px-32 {\n  padding-left: 8rem;\n  padding-right: 8rem;\n}.py-2 {\n  padding-top: 0.5rem;\n  padding-bottom: 0.5rem;\n}.pl-9 {\n  padding-left: 2.25rem;\n}.pr-3 {\n  padding-right: 0.75rem;\n}.text-center {\n  text-align: center;\n}.text-5xl {\n  font-size: 3rem;\n  line-height: 1;\n}.text-xl {\n  font-size: 1.25rem;\n  line-height: 1.75rem;\n}.text-3xl {\n  font-size: 1.875rem;\n  line-height: 2.25rem;\n}.font-extrabold {\n  font-weight: 800;\n}.font-bold {\n  font-weight: 700;\n}.font-semibold {\n  font-weight: 600;\n}.text-blue-500 {\n  --tw-text-opacity: 1;\n  color: rgb(59 130 246 / var(--tw-text-opacity));\n}.text-white {\n  --tw-text-opacity: 1;\n  color: rgb(255 255 255 / var(--tw-text-opacity));\n}.text-blue-300 {\n  --tw-text-opacity: 1;\n  color: rgb(147 197 253 / var(--tw-text-opacity));\n}.drop-shadow-md {\n  --tw-drop-shadow: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));\n  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);\n}.filter {\n  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);\n}.hover\\:bg-black:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(0 0 0 / var(--tw-bg-opacity));\n}";
+__vite_ssr_exports__.default = "/*\n! tailwindcss v3.1.7 | MIT License | https://tailwindcss.com\n*//*\n1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)\n2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)\n*/*,\n::before,\n::after {\n  box-sizing: border-box; /* 1 */\n  border-width: 0; /* 2 */\n  border-style: solid; /* 2 */\n  border-color: #e5e7eb; /* 2 */\n}::before,\n::after {\n  --tw-content: '';\n}/*\n1. Use a consistent sensible line-height in all browsers.\n2. Prevent adjustments of font size after orientation changes in iOS.\n3. Use a more readable tab size.\n4. Use the user's configured `sans` font-family by default.\n*/html {\n  line-height: 1.5; /* 1 */\n  -webkit-text-size-adjust: 100%; /* 2 */\n  -moz-tab-size: 4; /* 3 */\n  -o-tab-size: 4;\n     tab-size: 4; /* 3 */\n  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; /* 4 */\n}/*\n1. Remove the margin in all browsers.\n2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.\n*/body {\n  margin: 0; /* 1 */\n  line-height: inherit; /* 2 */\n}/*\n1. Add the correct height in Firefox.\n2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)\n3. Ensure horizontal rules are visible by default.\n*/hr {\n  height: 0; /* 1 */\n  color: inherit; /* 2 */\n  border-top-width: 1px; /* 3 */\n}/*\nAdd the correct text decoration in Chrome, Edge, and Safari.\n*/abbr:where([title]) {\n  -webkit-text-decoration: underline dotted;\n          text-decoration: underline dotted;\n}/*\nRemove the default font size and weight for headings.\n*/h1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-size: inherit;\n  font-weight: inherit;\n}/*\nReset links to optimize for opt-in styling instead of opt-out.\n*/a {\n  color: inherit;\n  text-decoration: inherit;\n}/*\nAdd the correct font weight in Edge and Safari.\n*/b,\nstrong {\n  font-weight: bolder;\n}/*\n1. Use the user's configured `mono` font family by default.\n2. Correct the odd `em` font sizing in all browsers.\n*/code,\nkbd,\nsamp,\npre {\n  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace; /* 1 */\n  font-size: 1em; /* 2 */\n}/*\nAdd the correct font size in all browsers.\n*/small {\n  font-size: 80%;\n}/*\nPrevent `sub` and `sup` elements from affecting the line height in all browsers.\n*/sub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}sub {\n  bottom: -0.25em;\n}sup {\n  top: -0.5em;\n}/*\n1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)\n2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)\n3. Remove gaps between table borders by default.\n*/table {\n  text-indent: 0; /* 1 */\n  border-color: inherit; /* 2 */\n  border-collapse: collapse; /* 3 */\n}/*\n1. Change the font styles in all browsers.\n2. Remove the margin in Firefox and Safari.\n3. Remove default padding in all browsers.\n*/button,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit; /* 1 */\n  font-size: 100%; /* 1 */\n  font-weight: inherit; /* 1 */\n  line-height: inherit; /* 1 */\n  color: inherit; /* 1 */\n  margin: 0; /* 2 */\n  padding: 0; /* 3 */\n}/*\nRemove the inheritance of text transform in Edge and Firefox.\n*/button,\nselect {\n  text-transform: none;\n}/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Remove default button styles.\n*/button,\n[type='button'],\n[type='reset'],\n[type='submit'] {\n  -webkit-appearance: button; /* 1 */\n  background-color: transparent; /* 2 */\n  background-image: none; /* 2 */\n}/*\nUse the modern Firefox focus style for all focusable elements.\n*/:-moz-focusring {\n  outline: auto;\n}/*\nRemove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)\n*/:-moz-ui-invalid {\n  box-shadow: none;\n}/*\nAdd the correct vertical alignment in Chrome and Firefox.\n*/progress {\n  vertical-align: baseline;\n}/*\nCorrect the cursor style of increment and decrement buttons in Safari.\n*/::-webkit-inner-spin-button,\n::-webkit-outer-spin-button {\n  height: auto;\n}/*\n1. Correct the odd appearance in Chrome and Safari.\n2. Correct the outline style in Safari.\n*/[type='search'] {\n  -webkit-appearance: textfield; /* 1 */\n  outline-offset: -2px; /* 2 */\n}/*\nRemove the inner padding in Chrome and Safari on macOS.\n*/::-webkit-search-decoration {\n  -webkit-appearance: none;\n}/*\n1. Correct the inability to style clickable types in iOS and Safari.\n2. Change font properties to `inherit` in Safari.\n*/::-webkit-file-upload-button {\n  -webkit-appearance: button; /* 1 */\n  font: inherit; /* 2 */\n}/*\nAdd the correct display in Chrome and Safari.\n*/summary {\n  display: list-item;\n}/*\nRemoves the default spacing and border for appropriate elements.\n*/blockquote,\ndl,\ndd,\nh1,\nh2,\nh3,\nh4,\nh5,\nh6,\nhr,\nfigure,\np,\npre {\n  margin: 0;\n}fieldset {\n  margin: 0;\n  padding: 0;\n}legend {\n  padding: 0;\n}ol,\nul,\nmenu {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}/*\nPrevent resizing textareas horizontally by default.\n*/textarea {\n  resize: vertical;\n}/*\n1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)\n2. Set the default placeholder color to the user's configured gray 400 color.\n*/input::-moz-placeholder, textarea::-moz-placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}input::placeholder,\ntextarea::placeholder {\n  opacity: 1; /* 1 */\n  color: #9ca3af; /* 2 */\n}/*\nSet the default cursor for buttons.\n*/button,\n[role=\"button\"] {\n  cursor: pointer;\n}/*\nMake sure disabled buttons don't get the pointer cursor.\n*/:disabled {\n  cursor: default;\n}/*\n1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)\n2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)\n   This can trigger a poorly considered lint error in some tools but is included by design.\n*/img,\nsvg,\nvideo,\ncanvas,\naudio,\niframe,\nembed,\nobject {\n  display: block; /* 1 */\n  vertical-align: middle; /* 2 */\n}/*\nConstrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)\n*/img,\nvideo {\n  max-width: 100%;\n  height: auto;\n}*, ::before, ::after {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n}::-webkit-backdrop {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n}::backdrop {\n  --tw-border-spacing-x: 0;\n  --tw-border-spacing-y: 0;\n  --tw-translate-x: 0;\n  --tw-translate-y: 0;\n  --tw-rotate: 0;\n  --tw-skew-x: 0;\n  --tw-skew-y: 0;\n  --tw-scale-x: 1;\n  --tw-scale-y: 1;\n  --tw-pan-x:  ;\n  --tw-pan-y:  ;\n  --tw-pinch-zoom:  ;\n  --tw-scroll-snap-strictness: proximity;\n  --tw-ordinal:  ;\n  --tw-slashed-zero:  ;\n  --tw-numeric-figure:  ;\n  --tw-numeric-spacing:  ;\n  --tw-numeric-fraction:  ;\n  --tw-ring-inset:  ;\n  --tw-ring-offset-width: 0px;\n  --tw-ring-offset-color: #fff;\n  --tw-ring-color: rgb(59 130 246 / 0.5);\n  --tw-ring-offset-shadow: 0 0 #0000;\n  --tw-ring-shadow: 0 0 #0000;\n  --tw-shadow: 0 0 #0000;\n  --tw-shadow-colored: 0 0 #0000;\n  --tw-blur:  ;\n  --tw-brightness:  ;\n  --tw-contrast:  ;\n  --tw-grayscale:  ;\n  --tw-hue-rotate:  ;\n  --tw-invert:  ;\n  --tw-saturate:  ;\n  --tw-sepia:  ;\n  --tw-drop-shadow:  ;\n  --tw-backdrop-blur:  ;\n  --tw-backdrop-brightness:  ;\n  --tw-backdrop-contrast:  ;\n  --tw-backdrop-grayscale:  ;\n  --tw-backdrop-hue-rotate:  ;\n  --tw-backdrop-invert:  ;\n  --tw-backdrop-opacity:  ;\n  --tw-backdrop-saturate:  ;\n  --tw-backdrop-sepia:  ;\n}.m-5 {\n  margin: 1.25rem;\n}.mt-8 {\n  margin-top: 2rem;\n}.mt-6 {\n  margin-top: 1.5rem;\n}.mt-4 {\n  margin-top: 1rem;\n}.mt-5 {\n  margin-top: 1.25rem;\n}.mr-60 {\n  margin-right: 15rem;\n}.ml-60 {\n  margin-left: 15rem;\n}.mr-16 {\n  margin-right: 4rem;\n}.ml-16 {\n  margin-left: 4rem;\n}.ml-8 {\n  margin-left: 2rem;\n}.ml-32 {\n  margin-left: 8rem;\n}.ml-2 {\n  margin-left: 0.5rem;\n}.ml-96 {\n  margin-left: 24rem;\n}.mb-5 {\n  margin-bottom: 1.25rem;\n}.ml-1 {\n  margin-left: 0.25rem;\n}.ml-10 {\n  margin-left: 2.5rem;\n}.mt-2 {\n  margin-top: 0.5rem;\n}.flex {\n  display: flex;\n}.table {\n  display: table;\n}.content-center {\n  align-content: center;\n}.justify-center {\n  justify-content: center;\n}.justify-between {\n  justify-content: space-between;\n}.rounded-md {\n  border-radius: 0.375rem;\n}.rounded {\n  border-radius: 0.25rem;\n}.rounded-xl {\n  border-radius: 0.75rem;\n}.border-2 {\n  border-width: 2px;\n}.border-4 {\n  border-width: 4px;\n}.border {\n  border-width: 1px;\n}.border-solid {\n  border-style: solid;\n}.border-black {\n  --tw-border-opacity: 1;\n  border-color: rgb(0 0 0 / var(--tw-border-opacity));\n}.border-slate-300 {\n  --tw-border-opacity: 1;\n  border-color: rgb(203 213 225 / var(--tw-border-opacity));\n}.border-x-black {\n  --tw-border-opacity: 1;\n  border-left-color: rgb(0 0 0 / var(--tw-border-opacity));\n  border-right-color: rgb(0 0 0 / var(--tw-border-opacity));\n}.bg-indigo-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(165 180 252 / var(--tw-bg-opacity));\n}.bg-slate-200 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(226 232 240 / var(--tw-bg-opacity));\n}.bg-gray-500 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(107 114 128 / var(--tw-bg-opacity));\n}.bg-gray-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(209 213 219 / var(--tw-bg-opacity));\n}.bg-blue-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(219 234 254 / var(--tw-bg-opacity));\n}.bg-black {\n  --tw-bg-opacity: 1;\n  background-color: rgb(0 0 0 / var(--tw-bg-opacity));\n}.bg-gray-100 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(243 244 246 / var(--tw-bg-opacity));\n}.bg-green-500 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(34 197 94 / var(--tw-bg-opacity));\n}.bg-blue-500 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(59 130 246 / var(--tw-bg-opacity));\n}.bg-white {\n  --tw-bg-opacity: 1;\n  background-color: rgb(255 255 255 / var(--tw-bg-opacity));\n}.bg-red-300 {\n  --tw-bg-opacity: 1;\n  background-color: rgb(252 165 165 / var(--tw-bg-opacity));\n}.p-2 {\n  padding: 0.5rem;\n}.p-4 {\n  padding: 1rem;\n}.p-1 {\n  padding: 0.25rem;\n}.p-6 {\n  padding: 1.5rem;\n}.p-3 {\n  padding: 0.75rem;\n}.px-32 {\n  padding-left: 8rem;\n  padding-right: 8rem;\n}.py-2 {\n  padding-top: 0.5rem;\n  padding-bottom: 0.5rem;\n}.px-3 {\n  padding-left: 0.75rem;\n  padding-right: 0.75rem;\n}.px-5 {\n  padding-left: 1.25rem;\n  padding-right: 1.25rem;\n}.px-10 {\n  padding-left: 2.5rem;\n  padding-right: 2.5rem;\n}.px-16 {\n  padding-left: 4rem;\n  padding-right: 4rem;\n}.pl-9 {\n  padding-left: 2.25rem;\n}.pr-3 {\n  padding-right: 0.75rem;\n}.pl-1 {\n  padding-left: 0.25rem;\n}.text-center {\n  text-align: center;\n}.text-5xl {\n  font-size: 3rem;\n  line-height: 1;\n}.text-xl {\n  font-size: 1.25rem;\n  line-height: 1.75rem;\n}.text-3xl {\n  font-size: 1.875rem;\n  line-height: 2.25rem;\n}.font-extrabold {\n  font-weight: 800;\n}.font-bold {\n  font-weight: 700;\n}.font-semibold {\n  font-weight: 600;\n}.text-blue-300 {\n  --tw-text-opacity: 1;\n  color: rgb(147 197 253 / var(--tw-text-opacity));\n}.text-white {\n  --tw-text-opacity: 1;\n  color: rgb(255 255 255 / var(--tw-text-opacity));\n}.text-blue-500 {\n  --tw-text-opacity: 1;\n  color: rgb(59 130 246 / var(--tw-text-opacity));\n}.drop-shadow-md {\n  --tw-drop-shadow: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));\n  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);\n}.filter {\n  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);\n}.hover\\:bg-black:hover {\n  --tw-bg-opacity: 1;\n  background-color: rgb(0 0 0 / var(--tw-bg-opacity));\n}";
 }
 
 
@@ -2739,7 +2739,7 @@ const _sfc_main = {
                 this.resetForm();
             } else {
                 console.log(this.formdata.price);
-                alert("price is valid");
+                // alert("price is valid");
             }
             //valid cate
             if (!isNaN(this.formdata.category) || this.formdata.category == null || this.formdata.category == "") {
@@ -2826,66 +2826,66 @@ const _sfc_main = {
             console.log(this.userFound);
         },
 
-        createNewCard() {
-            this.myarr.push(this.formdata);
-        },
-        login(event) {
-            event.preventDefault();
-            //validation
-            if (!isNaN(this.formdata.pname) || this.formdata.pname == null || this.formdata.pname == "") {
-                alert("Please Enter Name");
-                // console.log("Please Enter Name");
-                this.resetForm();
-            } else {
-                console.log(this.formdata.pname);
-                // alert("Name is valid");
-            }
-            //valid price
-            if (isNaN(this.formdata.price) || this.formdata.price == "") {
-                // if( !isNaN(this.formdata.price) || !this.formdata.price==null || !this.formdata.price==""  ){
-                // || this.formdata.price==""
-                alert("Please Enter price");
-                // console.log("Please Enter price");
-                this.resetForm();
-            } else {
-                console.log(this.formdata.price);
-                alert("price is valid");
-            }
-            //valid category
-            if (!isNaN(this.formdata.category) || this.formdata.category == null || this.formdata.category == "") {
-                alert("Please Enter category");
-                // console.log("Please Enter category");
-                this.resetForm();
-            } else {
-                console.log(this.formdata.category);
-                // alert("categoy is valid");
-            }
-            //valid color
-            if (!isNaN(this.formdata.color) || this.formdata.color == null || this.formdata.color == "") {
-                alert("Please Enter color");
-                // console.log("Please Enter color");
-                this.resetForm();
-            } else {
-                console.log(this.formdata.color);
-                // alert("Name is color");
-            }
-            if (this.isEdit == true) {
-                this.myarr[this.indexEdit] = this.formdata;
-                this.isEdit = false;
-                this.indexEdit = -1;
-            } else {
-                this.myarr.push(this.formdata);
-            }
-            this.formdata = {
-                id: 0,
-                pname: "",
-                price: "",
-                category: "",
-                color: "",
-                image: "",
-            }
-            console.log("Formdata is :", this.myarr);
-        },
+        // createNewCard() {
+        //     this.myarr.push(this.formdata);
+        // },
+        // login(event) {
+        //     event.preventDefault();
+        //     //validation
+        //     if (!isNaN(this.formdata.pname) || this.formdata.pname == null || this.formdata.pname == "") {
+        //         alert("Please Enter Name");
+        //         // console.log("Please Enter Name");
+        //         this.resetForm();
+        //     } else {
+        //         console.log(this.formdata.pname);
+        //         // alert("Name is valid");
+        //     }
+        //     //valid price
+        //     if (isNaN(this.formdata.price) || this.formdata.price == "") {
+        //         // if( !isNaN(this.formdata.price) || !this.formdata.price==null || !this.formdata.price==""  ){
+        //         // || this.formdata.price==""
+        //         alert("Please Enter price");
+        //         // console.log("Please Enter price");
+        //         this.resetForm();
+        //     } else {
+        //         console.log(this.formdata.price);
+        //         // alert("price is valid");
+        //     }
+        //     //valid category
+        //     if (!isNaN(this.formdata.category) || this.formdata.category == null || this.formdata.category == "") {
+        //         alert("Please Enter category");
+        //         // console.log("Please Enter category");
+        //         this.resetForm();
+        //     } else {
+        //         console.log(this.formdata.category);
+        //         // alert("categoy is valid");
+        //     }
+        //     //valid color
+        //     if (!isNaN(this.formdata.color) || this.formdata.color == null || this.formdata.color == "") {
+        //         alert("Please Enter color");
+        //         // console.log("Please Enter color");
+        //         this.resetForm();
+        //     } else {
+        //         console.log(this.formdata.color);
+        //         // alert("Name is color");
+        //     }
+        //     if (this.isEdit == true) {
+        //         this.myarr[this.indexEdit] = this.formdata;
+        //         this.isEdit = false;
+        //         this.indexEdit = -1;
+        //     } else {
+        //         this.myarr.push(this.formdata);
+        //     }
+        //     this.formdata = {
+        //         id: 0,
+        //         pname: "",
+        //         price: "",
+        //         category: "",
+        //         color: "",
+        //         image: "",
+        //     }
+        //     console.log("Formdata is :", this.myarr);
+        // },
         deleteIndex(index) {
             this.myarr.splice(index, 1);
         },
@@ -2906,17 +2906,15 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/serve
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<!--[--><div class="content bg-indigo-300"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"><h1 class="text-center font-extrabold text-5xl mt-8 bg-slate-200">Product Cart</h1><nav class="text-center font-bold text-xl mt-8"><a><select name="Category" id="shoes" class="bg-gray-500"><option value="shoes">Select Shoes</option><option value="shoes">Formal Shoes</option><option value="shoes">Casual Shoes</option><option value="shoes">Sports</option><option value="shoes">Leather</option></select><br></a></nav><div><table class="mt-6"><tr class="border-2 rounded-md border-x-black"><td class="text-center p-2"><div><h3 class="font-bold text-xl">Nike</h3><p><b>This is Demo Show of Nike Brand</b></p><h5><b>Rs 11,000/- only</b></h5><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br></div></td><td class="p-2"><div class="content text-center"><h3 class="font-bold text-xl">Addidas</h3><p><b>This is 2nd Demo Show of Addidas Brand</b></p><h5><b>Rs 12,200/- only</b></h5><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br></div></td></tr><tr class="border-2 rounded-md border-x-black"><td class="p-2"><div class="content text-center"><h3 class="font-bold text-xl">Nike</h3><p><b>This is 3rd Demo Show of Nike Brand</b></p><h5><b>Rs 9,500/- only</b></h5><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br></div></td><td class="p-2"><div class="content text-center"><h3 class="font-bold text-xl">Asics</h3><p><b>This is 4th Demo Show of Asics Brand</b></p><h5><b>Rs 14,200/- only</b></h5><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br></div></td></tr></table></div></div><!-- Form 1 --><div><title>
+  _push(`<!--[--><div class="content bg-indigo-300"><h1 class="text-center font-extrabold text-5xl mt-8 bg-slate-200">Product Cart</h1><nav class="text-center font-bold text-xl mt-8"><a><select name="Category" id="shoes" class="bg-gray-500"><option value="shoes">Select Shoes</option><option value="shoes">Formal Shoes</option><option value="shoes">Casual Shoes</option><option value="shoes">Sports</option><option value="shoes">Leather</option></select><br></a></nav><div><table class="flex justify-center mt-6"><tr class="border-2 rounded-md border-x-black"><td class="text-center p-2"><div><h3 class="font-bold text-xl">Nike</h3><p><b>This is Demo Show of Nike Brand</b></p><h5><b>Rs 11,000/- only</b></h5><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br></div></td><td class="p-2"><div class="content text-center"><h3 class="font-bold text-xl">Addidas</h3><p><b>This is 2nd Demo Show of Addidas Brand</b></p><h5><b>Rs 12,200/- only</b></h5><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br></div></td></tr><tr class="border-2 rounded-md border-x-black"><td class="p-2"><div class="content text-center"><h3 class="font-bold text-xl">Puma</h3><p><b>This is 3rd Demo Show of Puma Brand</b></p><h5><b>Rs 9,500/- only</b></h5><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br></div></td><td class="p-2"><div class="content text-center"><h3 class="font-bold text-xl">Asics</h3><p><b>This is 4th Demo Show of Asics Brand</b></p><h5><b>Rs 14,200/- only</b></h5><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br></div></td></tr></table></div></div><!-- Form 1 --><div><title>
         Productlist 
-    </title><h1 class="text-center font-semibold text-5xl mt-4 bg-gray-300"> Add Products</h1><hr class="mt-5 border-1 border-x-black"><div class="sm border-4 bg-blue-100 mr-60 ml-60 p-4 border-solid border-x-black rounded-md mt-6"><form action="" name="myForm" onsubmit="return validateForm()" method="post"><div class="justify-between p-1 sm"><label class="font-semibold text-xl mr-16" for="pname">Product Name</label><input class="ml-16 border-2 px-32" type="text"${
+    </title><h1 class="text-center font-semibold text-5xl mt-4 bg-gray-300"> Add Products</h1><hr class="mt-5 border-1 border-x-black"><div class="sm border-4 bg-blue-100 mr-60 ml-60 p-4 border-solid border-x-black rounded-md mt-6"><form action="" name="myForm" onsubmit="return validateForm()" method="post"><table><tr><td><label class="font-semibold text-xl text-center ml-10" for="pname">Product Name</label></td><td><input class="ml-16 border-2 px-32 pl-1 rounded-xl" type="text"${
     __vite_ssr_import_0__.ssrRenderAttr("value", $data.formdata.pname)
-  } name="pname" id="pname" required></div><div class="p-1"><label class="font-semibold text-xl mr-16" for="price">Product Price</label><input class="ml-16 border-2 px-32" type="number"${
+  } name="pname" id="pname" required></td></tr><tr><td><label class="font-semibold text-xl ml-10" for="price">Product Price</label></td><td><input class="ml-16 border-2 px-32 pl-1 rounded-xl" type="number"${
     __vite_ssr_import_0__.ssrRenderAttr("value", $data.formdata.price)
-  } name="price" id="price" required></div><div class="p-1"><label class="font-semibold text-xl mr-16" for="category">Product Category</label><input class="ml-8 border-2 px-32" type="text"${
+  } name="price" id="price" required></td></tr><tr><td><label class="font-semibold text-xl ml-10" for="category">Product Category</label></td><td><input class="ml-16 border-2 px-32 pl-1 rounded-xl" type="text"${
     __vite_ssr_import_0__.ssrRenderAttr("value", $data.formdata.category)
-  } name="category" id="category" required></div><div class="p-1"><label class="font-semibold text-xl mr-16" for="color">Product color</label><input class="ml-16 border-2 px-32" type="text"${
-    __vite_ssr_import_0__.ssrRenderAttr("value", $data.formdata.color)
-  } name="color" id="color" required></div><div class="p-1 mt-6"><button class="ml-16 border-2 font-bold mr-16 rounded-md bg-black text-blue-300 hover:bg-black hover: text-white p-2 text-center" type="submit">Add Product</button><button class="ml-16 border-2 font-bold mr-16 rounded-md bg-black text-blue-300 hover:bg-black text-white p-2 text-center" type="reset">Reset</button></div></form><table border="2" class="border-2 bg-blue-100 mr-60 ml-32 p-6 border-solid border-x-black rounded-md mt-8"><tr><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product ID</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Name </td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Price</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Category</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Color</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Delete</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Edit Data</td></tr><!--[-->`)
+  } name="category" id="category" required></td></tr><tr><td><label class="font-semibold text-xl ml-10" for="color">Product color</label></td><td><input class="ml-16 border-2 px-32 pl-1 rounded-xl" type="text" name="color" id="color" required></td></tr><tr><td><button class="ml-16 mt-2 border-2 font-bold mr-16 rounded-md bg-black text-blue-300 hover:bg-black hover: text-white p-2 text-center" type="submit">Add Product</button></td><td><button class="ml-16 border-2 font-bold mr-16 rounded-md bg-black text-blue-300 hover:bg-black text-white p-2 text-center" type="reset">Reset</button></td></tr></table><div class="justify-between p-1 sm"></div><div class="p-1"></div><div class="p-1"></div><div class="p-1"></div><div class="p-1 mt-6"></div></form><table border="2" class="border-2 bg-blue-100 mr-60 ml-32 p-6 border-solid border-x-black rounded-md mt-8"><tr><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product ID</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Name </td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Price</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Category</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Color</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Delete</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Edit Data</td></tr><!--[-->`)
   __vite_ssr_import_0__.ssrRenderList($data.myarr, (item, i) => {
     _push(`<tr><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8">${
       __vite_ssr_import_0__.ssrInterpolate(item.id = i + 1)
@@ -2944,31 +2942,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
       __vite_ssr_import_0__.ssrInterpolate(prod.color)
     }</td></tr>`)
   })
-  _push(`<!--]--></table></div></div><!-- 1 From end --><!-- Form 2 --><div><div class="border-solid border-2 border-x-black drop-shadow-md"><form action="" method="post"><h1 style="${
-    __vite_ssr_import_0__.ssrRenderStyle({"color":"black"})
-  }" class="font-bold text-3xl p-1 bg-blue-500 text-center"> Product List</h1><table class="ml-96"><tr class="text-center"><td><label>Product Name: </label></td><td><input type="text"${
-    __vite_ssr_import_0__.ssrRenderAttr("value", $data.formdata.pname)
-  } class="bg-white border border-slate-300 rounded-md py-2 pl-9 pr-3 m-5" required></td></tr><tr><td><label>Product Price: </label></td><td><input type="number"${
-    __vite_ssr_import_0__.ssrRenderAttr("value", $data.formdata.price)
-  } class="bg-white border border-slate-300 rounded-md py-2 pl-9 pr-3 m-5" required></td></tr><tr><td><label>Product Category: </label></td><td><input type="text"${
-    __vite_ssr_import_0__.ssrRenderAttr("value", $data.formdata.category)
-  } class="bg-white border border-slate-300 rounded-md py-2 pl-9 pr-3 m-5" required></td></tr><tr><td><label>Product Color: </label></td><td><input type="text"${
-    __vite_ssr_import_0__.ssrRenderAttr("value", $data.formdata.color)
-  } class="bg-white border border-slate-300 rounded-md py-2 pl-9 pr-3 m-5" required></td></tr><tr><td><button type="button" class="mb-5 border-solid font-extrabold rounded border-2 border-x-black p-3 bg-gray-300 bg-hover-black"> AddToCart </button></td></tr></table></form></div><div><h1 class="font-semibold text-center text-3xl p-2 bg-blue-500"><b>Cart</b></h1></div><div><table class="border-2 bg-blue-100 mr-60 ml-60 p-6 border-solid border-x-black rounded-md mt-4"><tr><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">ID</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Image</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Name</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Price</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Category</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Color</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Delete</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Edit</td></tr><!--[-->`)
-  __vite_ssr_import_0__.ssrRenderList($data.myarr, (item, i) => {
-    _push(`<tr><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8">${
-      __vite_ssr_import_0__.ssrInterpolate(item.id = i + 1)
-    }</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8"><img src="assets/show1.jfif" alt="image"></td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8">${
-      __vite_ssr_import_0__.ssrInterpolate(item.pname)
-    }</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8">${
-      __vite_ssr_import_0__.ssrInterpolate(item.price)
-    }</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8">${
-      __vite_ssr_import_0__.ssrInterpolate(item.category)
-    }</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8">${
-      __vite_ssr_import_0__.ssrInterpolate(item.color)
-    }</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8"><button class="border-2 font-bold rounded-md bg-red-300 text-blue-500 hover:bg-black text-white p-2 text-center">Delete</button></td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8"><button class="border-2 font-bold rounded-md bg-green-500 text-blue-500 hover:bg-black text-white p-2 text-center">Edit</button></td></tr>`)
-  })
-  _push(`<!--]--></table></div></div><!--]-->`)
+  _push(`<!--]--></table></div></div><!-- 1 From end --><!--]-->`)
 }
 
 
@@ -3092,7 +3066,7 @@ const _sfc_main = {
                 this.resetForm();
             } else {
                 console.log(this.formdata.price);
-                alert("price is valid");
+                // alert("price is valid");
             }
             //valid cate
             if (!isNaN(this.formdata.category) || this.formdata.category == null || this.formdata.category == "") {
@@ -3179,66 +3153,66 @@ const _sfc_main = {
             console.log(this.userFound);
         },
 
-        createNewCard() {
-            this.myarr.push(this.formdata);
-        },
-        login(event) {
-            event.preventDefault();
-            //validation
-            if (!isNaN(this.formdata.pname) || this.formdata.pname == null || this.formdata.pname == "") {
-                alert("Please Enter Name");
-                // console.log("Please Enter Name");
-                this.resetForm();
-            } else {
-                console.log(this.formdata.pname);
-                // alert("Name is valid");
-            }
-            //valid price
-            if (isNaN(this.formdata.price) || this.formdata.price == "") {
-                // if( !isNaN(this.formdata.price) || !this.formdata.price==null || !this.formdata.price==""  ){
-                // || this.formdata.price==""
-                alert("Please Enter price");
-                // console.log("Please Enter price");
-                this.resetForm();
-            } else {
-                console.log(this.formdata.price);
-                alert("price is valid");
-            }
-            //valid category
-            if (!isNaN(this.formdata.category) || this.formdata.category == null || this.formdata.category == "") {
-                alert("Please Enter category");
-                // console.log("Please Enter category");
-                this.resetForm();
-            } else {
-                console.log(this.formdata.category);
-                // alert("categoy is valid");
-            }
-            //valid color
-            if (!isNaN(this.formdata.color) || this.formdata.color == null || this.formdata.color == "") {
-                alert("Please Enter color");
-                // console.log("Please Enter color");
-                this.resetForm();
-            } else {
-                console.log(this.formdata.color);
-                // alert("Name is color");
-            }
-            if (this.isEdit == true) {
-                this.myarr[this.indexEdit] = this.formdata;
-                this.isEdit = false;
-                this.indexEdit = -1;
-            } else {
-                this.myarr.push(this.formdata);
-            }
-            this.formdata = {
-                id: 0,
-                pname: "",
-                price: "",
-                category: "",
-                color: "",
-                image: "",
-            }
-            console.log("Formdata is :", this.myarr);
-        },
+        // createNewCard() {
+        //     this.myarr.push(this.formdata);
+        // },
+        // login(event) {
+        //     event.preventDefault();
+        //     //validation
+        //     if (!isNaN(this.formdata.pname) || this.formdata.pname == null || this.formdata.pname == "") {
+        //         alert("Please Enter Name");
+        //         // console.log("Please Enter Name");
+        //         this.resetForm();
+        //     } else {
+        //         console.log(this.formdata.pname);
+        //         // alert("Name is valid");
+        //     }
+        //     //valid price
+        //     if (isNaN(this.formdata.price) || this.formdata.price == "") {
+        //         // if( !isNaN(this.formdata.price) || !this.formdata.price==null || !this.formdata.price==""  ){
+        //         // || this.formdata.price==""
+        //         alert("Please Enter price");
+        //         // console.log("Please Enter price");
+        //         this.resetForm();
+        //     } else {
+        //         console.log(this.formdata.price);
+        //         // alert("price is valid");
+        //     }
+        //     //valid category
+        //     if (!isNaN(this.formdata.category) || this.formdata.category == null || this.formdata.category == "") {
+        //         alert("Please Enter category");
+        //         // console.log("Please Enter category");
+        //         this.resetForm();
+        //     } else {
+        //         console.log(this.formdata.category);
+        //         // alert("categoy is valid");
+        //     }
+        //     //valid color
+        //     if (!isNaN(this.formdata.color) || this.formdata.color == null || this.formdata.color == "") {
+        //         alert("Please Enter color");
+        //         // console.log("Please Enter color");
+        //         this.resetForm();
+        //     } else {
+        //         console.log(this.formdata.color);
+        //         // alert("Name is color");
+        //     }
+        //     if (this.isEdit == true) {
+        //         this.myarr[this.indexEdit] = this.formdata;
+        //         this.isEdit = false;
+        //         this.indexEdit = -1;
+        //     } else {
+        //         this.myarr.push(this.formdata);
+        //     }
+        //     this.formdata = {
+        //         id: 0,
+        //         pname: "",
+        //         price: "",
+        //         category: "",
+        //         color: "",
+        //         image: "",
+        //     }
+        //     console.log("Formdata is :", this.myarr);
+        // },
         deleteIndex(index) {
             this.myarr.splice(index, 1);
         },
@@ -3259,17 +3233,15 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/serve
 
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<!--[--><div class="content bg-indigo-300"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"><h1 class="text-center font-extrabold text-5xl mt-8 bg-slate-200">Product Cart</h1><nav class="text-center font-bold text-xl mt-8"><a><select name="Category" id="shoes" class="bg-gray-500"><option value="shoes">Select Shoes</option><option value="shoes">Formal Shoes</option><option value="shoes">Casual Shoes</option><option value="shoes">Sports</option><option value="shoes">Leather</option></select><br></a></nav><div><table class="mt-6"><tr class="border-2 rounded-md border-x-black"><td class="text-center p-2"><div><h3 class="font-bold text-xl">Nike</h3><p><b>This is Demo Show of Nike Brand</b></p><h5><b>Rs 11,000/- only</b></h5><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br></div></td><td class="p-2"><div class="content text-center"><h3 class="font-bold text-xl">Addidas</h3><p><b>This is 2nd Demo Show of Addidas Brand</b></p><h5><b>Rs 12,200/- only</b></h5><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br></div></td></tr><tr class="border-2 rounded-md border-x-black"><td class="p-2"><div class="content text-center"><h3 class="font-bold text-xl">Nike</h3><p><b>This is 3rd Demo Show of Nike Brand</b></p><h5><b>Rs 9,500/- only</b></h5><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br></div></td><td class="p-2"><div class="content text-center"><h3 class="font-bold text-xl">Asics</h3><p><b>This is 4th Demo Show of Asics Brand</b></p><h5><b>Rs 14,200/- only</b></h5><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br></div></td></tr></table></div></div><!-- Form 1 --><div><title>
+  _push(`<!--[--><div class="content bg-indigo-300"><h1 class="text-center font-extrabold text-5xl mt-8 bg-slate-200">Product Cart</h1><nav class="text-center font-bold text-xl mt-8"><a><select name="Category" id="shoes" class="bg-gray-500"><option value="shoes">Select Shoes</option><option value="shoes">Formal Shoes</option><option value="shoes">Casual Shoes</option><option value="shoes">Sports</option><option value="shoes">Leather</option></select><br></a></nav><div><table class="flex justify-center mt-6"><tr class="border-2 rounded-md border-x-black"><td class="text-center p-2"><div><h3 class="font-bold text-xl">Nike</h3><p><b>This is Demo Show of Nike Brand</b></p><h5><b>Rs 11,000/- only</b></h5><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br></div></td><td class="p-2"><div class="content text-center"><h3 class="font-bold text-xl">Addidas</h3><p><b>This is 2nd Demo Show of Addidas Brand</b></p><h5><b>Rs 12,200/- only</b></h5><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br></div></td></tr><tr class="border-2 rounded-md border-x-black"><td class="p-2"><div class="content text-center"><h3 class="font-bold text-xl">Puma</h3><p><b>This is 3rd Demo Show of Puma Brand</b></p><h5><b>Rs 9,500/- only</b></h5><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br></div></td><td class="p-2"><div class="content text-center"><h3 class="font-bold text-xl">Asics</h3><p><b>This is 4th Demo Show of Asics Brand</b></p><h5><b>Rs 14,200/- only</b></h5><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br></div></td></tr></table></div></div><!-- Form 1 --><div><title>
         Productlist 
-    </title><h1 class="text-center font-semibold text-5xl mt-4 bg-gray-300"> Add Products</h1><hr class="mt-5 border-1 border-x-black"><div class="sm border-4 bg-blue-100 mr-60 ml-60 p-4 border-solid border-x-black rounded-md mt-6"><form action="" name="myForm" onsubmit="return validateForm()" method="post"><div class="justify-between p-1 sm"><label class="font-semibold text-xl mr-16" for="pname">Product Name</label><input class="ml-16 border-2 px-32" type="text"${
+    </title><h1 class="text-center font-semibold text-5xl mt-4 bg-gray-300"> Add Products</h1><hr class="mt-5 border-1 border-x-black"><div class="sm border-4 bg-blue-100 mr-60 ml-60 p-4 border-solid border-x-black rounded-md mt-6"><form action="" name="myForm" onsubmit="return validateForm()" method="post"><table><tr><td><label class="font-semibold text-xl text-center ml-10" for="pname">Product Name</label></td><td><input class="ml-16 border-2 px-32 pl-1 rounded-xl" type="text"${
     __vite_ssr_import_0__.ssrRenderAttr("value", $data.formdata.pname)
-  } name="pname" id="pname" required></div><div class="p-1"><label class="font-semibold text-xl mr-16" for="price">Product Price</label><input class="ml-16 border-2 px-32" type="number"${
+  } name="pname" id="pname" required></td></tr><tr><td><label class="font-semibold text-xl ml-10" for="price">Product Price</label></td><td><input class="ml-16 border-2 px-32 pl-1 rounded-xl" type="number"${
     __vite_ssr_import_0__.ssrRenderAttr("value", $data.formdata.price)
-  } name="price" id="price" required></div><div class="p-1"><label class="font-semibold text-xl mr-16" for="category">Product Category</label><input class="ml-8 border-2 px-32" type="text"${
+  } name="price" id="price" required></td></tr><tr><td><label class="font-semibold text-xl ml-10" for="category">Product Category</label></td><td><input class="ml-16 border-2 px-32 pl-1 rounded-xl" type="text"${
     __vite_ssr_import_0__.ssrRenderAttr("value", $data.formdata.category)
-  } name="category" id="category" required></div><div class="p-1"><label class="font-semibold text-xl mr-16" for="color">Product color</label><input class="ml-16 border-2 px-32" type="text"${
-    __vite_ssr_import_0__.ssrRenderAttr("value", $data.formdata.color)
-  } name="color" id="color" required></div><div class="p-1 mt-6"><button class="ml-16 border-2 font-bold mr-16 rounded-md bg-black text-blue-300 hover:bg-black hover: text-white p-2 text-center" type="submit">Add Product</button><button class="ml-16 border-2 font-bold mr-16 rounded-md bg-black text-blue-300 hover:bg-black text-white p-2 text-center" type="reset">Reset</button></div></form><table border="2" class="border-2 bg-blue-100 mr-60 ml-32 p-6 border-solid border-x-black rounded-md mt-8"><tr><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product ID</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Name </td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Price</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Category</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Color</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Delete</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Edit Data</td></tr><!--[-->`)
+  } name="category" id="category" required></td></tr><tr><td><label class="font-semibold text-xl ml-10" for="color">Product color</label></td><td><input class="ml-16 border-2 px-32 pl-1 rounded-xl" type="text" name="color" id="color" required></td></tr><tr><td><button class="ml-16 mt-2 border-2 font-bold mr-16 rounded-md bg-black text-blue-300 hover:bg-black hover: text-white p-2 text-center" type="submit">Add Product</button></td><td><button class="ml-16 border-2 font-bold mr-16 rounded-md bg-black text-blue-300 hover:bg-black text-white p-2 text-center" type="reset">Reset</button></td></tr></table><div class="justify-between p-1 sm"></div><div class="p-1"></div><div class="p-1"></div><div class="p-1"></div><div class="p-1 mt-6"></div></form><table border="2" class="border-2 bg-blue-100 mr-60 ml-32 p-6 border-solid border-x-black rounded-md mt-8"><tr><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product ID</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Name </td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Price</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Category</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Color</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Delete</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Edit Data</td></tr><!--[-->`)
   __vite_ssr_import_0__.ssrRenderList($data.myarr, (item, i) => {
     _push(`<tr><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8">${
       __vite_ssr_import_0__.ssrInterpolate(item.id = i + 1)
@@ -3297,31 +3269,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
       __vite_ssr_import_0__.ssrInterpolate(prod.color)
     }</td></tr>`)
   })
-  _push(`<!--]--></table></div></div><!-- 1 From end --><!-- Form 2 --><div><div class="border-solid border-2 border-x-black drop-shadow-md"><form action="" method="post"><h1 style="${
-    __vite_ssr_import_0__.ssrRenderStyle({"color":"black"})
-  }" class="font-bold text-3xl p-1 bg-blue-500 text-center"> Product List</h1><table class="ml-96"><tr class="text-center"><td><label>Product Name: </label></td><td><input type="text"${
-    __vite_ssr_import_0__.ssrRenderAttr("value", $data.formdata.pname)
-  } class="bg-white border border-slate-300 rounded-md py-2 pl-9 pr-3 m-5" required></td></tr><tr><td><label>Product Price: </label></td><td><input type="number"${
-    __vite_ssr_import_0__.ssrRenderAttr("value", $data.formdata.price)
-  } class="bg-white border border-slate-300 rounded-md py-2 pl-9 pr-3 m-5" required></td></tr><tr><td><label>Product Category: </label></td><td><input type="text"${
-    __vite_ssr_import_0__.ssrRenderAttr("value", $data.formdata.category)
-  } class="bg-white border border-slate-300 rounded-md py-2 pl-9 pr-3 m-5" required></td></tr><tr><td><label>Product Color: </label></td><td><input type="text"${
-    __vite_ssr_import_0__.ssrRenderAttr("value", $data.formdata.color)
-  } class="bg-white border border-slate-300 rounded-md py-2 pl-9 pr-3 m-5" required></td></tr><tr><td><button type="button" class="mb-5 border-solid font-extrabold rounded border-2 border-x-black p-3 bg-gray-300 bg-hover-black"> AddToCart </button></td></tr></table></form></div><div><h1 class="font-semibold text-center text-3xl p-2 bg-blue-500"><b>Cart</b></h1></div><div><table class="border-2 bg-blue-100 mr-60 ml-60 p-6 border-solid border-x-black rounded-md mt-4"><tr><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">ID</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Image</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Name</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Price</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Category</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Color</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Delete</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Edit</td></tr><!--[-->`)
-  __vite_ssr_import_0__.ssrRenderList($data.myarr, (item, i) => {
-    _push(`<tr><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8">${
-      __vite_ssr_import_0__.ssrInterpolate(item.id = i + 1)
-    }</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8"><img src="assets/show1.jfif" alt="image"></td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8">${
-      __vite_ssr_import_0__.ssrInterpolate(item.pname)
-    }</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8">${
-      __vite_ssr_import_0__.ssrInterpolate(item.price)
-    }</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8">${
-      __vite_ssr_import_0__.ssrInterpolate(item.category)
-    }</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8">${
-      __vite_ssr_import_0__.ssrInterpolate(item.color)
-    }</td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8"><button class="border-2 font-bold rounded-md bg-red-300 text-blue-500 hover:bg-black text-white p-2 text-center">Delete</button></td><td class="border-2 bg-gray-100 p-2 border-solid border-black rounded-md mt-8"><button class="border-2 font-bold rounded-md bg-green-500 text-blue-500 hover:bg-black text-white p-2 text-center">Edit</button></td></tr>`)
-  })
-  _push(`<!--]--></table></div></div><!--]-->`)
+  _push(`<!--]--></table></div></div><!-- 1 From end --><!--]-->`)
 }
 
 

@@ -1,6 +1,5 @@
 <template>
 <div class="content bg-indigo-300">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <h1 class="text-center font-extrabold text-5xl mt-8 bg-slate-200">Product Cart</h1>
 
     <nav class="text-center font-bold text-xl mt-8 ">
@@ -17,7 +16,7 @@
         </a>
     </nav>
     <div>
-        <table class="mt-6">
+        <table class=" flex justify-center mt-6 " >
             <tr class="border-2 rounded-md border-x-black">
                 <td class="text-center p-2">
                     <div>
@@ -26,7 +25,7 @@
                         <p><b>This is Demo Show of Nike Brand</b></p>
                         <h5><b>Rs 11,000/- only</b></h5>
 
-                        <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br>
+                        <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br>
                        
                     </div>
                 </td>
@@ -45,8 +44,8 @@
                 <td class="p-2">
                     <div class="content text-center">
                         
-                        <h3 class="font-bold text-xl">Nike</h3>
-                        <p><b>This is 3rd Demo Show of Nike Brand</b></p>
+                        <h3 class="font-bold text-xl">Puma</h3>
+                        <p><b>This is 3rd Demo Show of Puma Brand</b></p>
                         <h5><b>Rs 9,500/- only</b></h5>
                         <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br>
                        
@@ -58,7 +57,7 @@
                         <h3 class="font-bold text-xl">Asics</h3>
                         <p><b>This is 4th Demo Show of Asics Brand</b></p>
                         <h5><b>Rs 14,200/- only</b></h5>
-                        <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br>
+                        <i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><i class="fa fa-star checked"></i><br>
                       
                     </div>
                 </td>
@@ -76,25 +75,66 @@
     <hr class="mt-5 border-1 border-x-black">
     <div class="sm  border-4 bg-blue-100 mr-60 ml-60 p-4 border-solid border-x-black rounded-md mt-6 ">
         <form action="" name="myForm" onsubmit="return validateForm()" method="post">
+        <table>
+            <tr>
+                <td>
+                    <label class="font-semibold text-xl text-center ml-10" for="pname">Product Name</label>
+                </td>
+                <td>
+                    <input class="ml-16 border-2 px-32 pl-1 rounded-xl" type="text" v-model="formdata.pname" name="pname" id="pname" @change="validationName" required>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="font-semibold text-xl ml-10 " for="price">Product Price</label>
+
+                </td>
+                <td>
+                    <input class="ml-16 border-2 px-32 pl-1 rounded-xl" type="number" v-model="formdata.price" name="price" id="price" @change="validationPrice" required>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="font-semibold text-xl ml-10" for="category">Product Category</label>
+
+                </td>
+                <td>
+                    <input class="ml-16 border-2 px-32 pl-1 rounded-xl" type="text" v-model="formdata.category" name="category" id="category" @change="validationCategory" required>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="font-semibold text-xl ml-10" for="color">Product color</label>
+
+                </td>
+                <td>
+                    <input class="ml-16 border-2 px-32 pl-1 rounded-xl"  type="text"  name="color" id="color" @change="validationColor" required>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="ml-16  mt-2 border-2 font-bold mr-16 rounded-md bg-black text-blue-300 hover:bg-black hover: text-white p-2 text-center" type="submit" @click="addpro">Add Product</button>
+
+                </td>
+                <td>
+                    <button class="ml-16 border-2 font-bold mr-16 rounded-md bg-black text-blue-300 hover:bg-black  text-white p-2 text-center" type="reset">Reset</button>
+                    
+                </td>
+            </tr>
+        </table>
             <div class="justify-between p-1 sm">
-                <label class="font-semibold text-xl mr-16" for="pname">Product Name</label>
-                <input class="ml-16 border-2 px-32" type="text" v-model="formdata.pname" name="pname" id="pname" @change="validationName" required>
             </div>
             <div class="p-1">
-                <label class="font-semibold text-xl mr-16" for="price">Product Price</label>
-                <input class="ml-16  border-2 px-32 " type="number" v-model="formdata.price" name="price" id="price" @change="validationPrice" required>
             </div>
             <div class="p-1">
-                <label class="font-semibold text-xl mr-16" for="category">Product Category</label>
-                <input class="ml-8 border-2 px-32" type="text" v-model="formdata.category" name="category" id="category" @change="validationCategory" required>
             </div>
             <div class="p-1">
-                <label class="font-semibold text-xl mr-16" for="color">Product color</label>
-                <input class="ml-16 border-2 px-32" type="text" v-model="formdata.color" name="color" id="color" @change="validationColor" required>
             </div>
             <div class="p-1  mt-6">
-                <button class="ml-16 border-2 font-bold mr-16 rounded-md bg-black text-blue-300 hover:bg-black hover: text-white p-2 text-center" type="submit" @click="addpro">Add Product</button>
-                <button class="ml-16 border-2 font-bold mr-16 rounded-md bg-black text-blue-300 hover:bg-black  text-white p-2 text-center" type="reset">Reset</button>
             </div>
         </form>
         <table border="2" class="border-2  bg-blue-100 mr-60 ml-32 p-6 border-solid border-x-black rounded-md mt-8 ">
@@ -147,69 +187,6 @@
     </div>
 </div>
 <!-- 1 From end -->
-
-
-<!-- Form 2 -->
-<div>
-
-    <div class="border-solid border-2 border-x-black drop-shadow-md ">
-        <form action="" method="post">
-            <h1 style="color: black" class="font-bold text-3xl p-1 bg-blue-500 text-center"> Product List</h1>
-            <table class="ml-96">
-                <tr class="text-center">
-                    <td><label>Product Name: </label></td>
-                    <td><input type="text" v-model="formdata.pname" class="bg-white border border-slate-300 rounded-md py-2 pl-9 pr-3 m-5" @change="validationName" required></td>
-                </tr>
-                <tr>
-                    <td><label>Product Price: </label></td>
-                    <td><input type="number" v-model="formdata.price" class="bg-white border border-slate-300 rounded-md py-2 pl-9 pr-3 m-5" @change="validationPrice" required></td>
-                </tr>
-                <tr>
-                    <td><label>Product Category: </label></td>
-                    <td><input type="text" v-model="formdata.category" class="bg-white border border-slate-300 rounded-md py-2 pl-9 pr-3 m-5" @change="validationCategory" required></td>
-                </tr>
-                <tr>
-                    <td><label>Product Color: </label></td>
-                    <td><input type="text" v-model="formdata.color" class="bg-white border border-slate-300 rounded-md py-2 pl-9 pr-3 m-5" @change="validationColor" required></td>
-                </tr>
-                <tr>
-                    <td>
-                        <button type="button" class="mb-5 border-solid font-extrabold rounded border-2 border-x-black p-3 bg-gray-300 bg-hover-black" @click="login">
-                            AddToCart
-                        </button>
-                    </td>
-                </tr>
-            </table>
-        </form>
-    </div>
-    <div>
-        <h1 class="font-semibold text-center text-3xl p-2 bg-blue-500"><b>Cart</b></h1>
-    </div>
-    <div>
-        <table class="border-2  bg-blue-100 mr-60 ml-60 p-6 border-solid border-x-black rounded-md mt-4">
-            <tr>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">ID</td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Image</td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Name</td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Price</td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Category</td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product Color</td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Delete</td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Edit</td>
-            </tr>
-            <tr v-for="(item,i) in myarr" :key="item">
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8">{{item.id = i + 1}}</td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8"><img src="assets/show1.jfif" alt="image"></td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8">{{item.pname}}</td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8">{{item.price}}</td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8">{{item.category}}</td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8">{{item.color}}</td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8"><button class=" border-2 font-bold rounded-md bg-red-300 text-blue-500 hover:bg-black  text-white p-2 text-center" @click="deleteIndex(i)">Delete</button></td>
-                <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8"><button class=" border-2 font-bold rounded-md bg-green-500 text-blue-500 hover:bg-black  text-white p-2 text-center" @click="editIndex(i)">Edit</button></td>
-            </tr>
-        </table>
-    </div>
-</div>
 </template>
 
 <script>
@@ -251,7 +228,7 @@ export default {
                 this.resetForm();
             } else {
                 console.log(this.formdata.price);
-                alert("price is valid");
+                // alert("price is valid");
             }
             //valid cate
             if (!isNaN(this.formdata.category) || this.formdata.category == null || this.formdata.category == "") {
@@ -338,66 +315,66 @@ export default {
             console.log(this.userFound);
         },
 
-        createNewCard() {
-            this.myarr.push(this.formdata);
-        },
-        login(event) {
-            event.preventDefault();
-            //validation
-            if (!isNaN(this.formdata.pname) || this.formdata.pname == null || this.formdata.pname == "") {
-                alert("Please Enter Name");
-                // console.log("Please Enter Name");
-                this.resetForm();
-            } else {
-                console.log(this.formdata.pname);
-                // alert("Name is valid");
-            }
-            //valid price
-            if (isNaN(this.formdata.price) || this.formdata.price == "") {
-                // if( !isNaN(this.formdata.price) || !this.formdata.price==null || !this.formdata.price==""  ){
-                // || this.formdata.price==""
-                alert("Please Enter price");
-                // console.log("Please Enter price");
-                this.resetForm();
-            } else {
-                console.log(this.formdata.price);
-                alert("price is valid");
-            }
-            //valid category
-            if (!isNaN(this.formdata.category) || this.formdata.category == null || this.formdata.category == "") {
-                alert("Please Enter category");
-                // console.log("Please Enter category");
-                this.resetForm();
-            } else {
-                console.log(this.formdata.category);
-                // alert("categoy is valid");
-            }
-            //valid color
-            if (!isNaN(this.formdata.color) || this.formdata.color == null || this.formdata.color == "") {
-                alert("Please Enter color");
-                // console.log("Please Enter color");
-                this.resetForm();
-            } else {
-                console.log(this.formdata.color);
-                // alert("Name is color");
-            }
-            if (this.isEdit == true) {
-                this.myarr[this.indexEdit] = this.formdata;
-                this.isEdit = false;
-                this.indexEdit = -1;
-            } else {
-                this.myarr.push(this.formdata);
-            }
-            this.formdata = {
-                id: 0,
-                pname: "",
-                price: "",
-                category: "",
-                color: "",
-                image: "",
-            }
-            console.log("Formdata is :", this.myarr);
-        },
+        // createNewCard() {
+        //     this.myarr.push(this.formdata);
+        // },
+        // login(event) {
+        //     event.preventDefault();
+        //     //validation
+        //     if (!isNaN(this.formdata.pname) || this.formdata.pname == null || this.formdata.pname == "") {
+        //         alert("Please Enter Name");
+        //         // console.log("Please Enter Name");
+        //         this.resetForm();
+        //     } else {
+        //         console.log(this.formdata.pname);
+        //         // alert("Name is valid");
+        //     }
+        //     //valid price
+        //     if (isNaN(this.formdata.price) || this.formdata.price == "") {
+        //         // if( !isNaN(this.formdata.price) || !this.formdata.price==null || !this.formdata.price==""  ){
+        //         // || this.formdata.price==""
+        //         alert("Please Enter price");
+        //         // console.log("Please Enter price");
+        //         this.resetForm();
+        //     } else {
+        //         console.log(this.formdata.price);
+        //         // alert("price is valid");
+        //     }
+        //     //valid category
+        //     if (!isNaN(this.formdata.category) || this.formdata.category == null || this.formdata.category == "") {
+        //         alert("Please Enter category");
+        //         // console.log("Please Enter category");
+        //         this.resetForm();
+        //     } else {
+        //         console.log(this.formdata.category);
+        //         // alert("categoy is valid");
+        //     }
+        //     //valid color
+        //     if (!isNaN(this.formdata.color) || this.formdata.color == null || this.formdata.color == "") {
+        //         alert("Please Enter color");
+        //         // console.log("Please Enter color");
+        //         this.resetForm();
+        //     } else {
+        //         console.log(this.formdata.color);
+        //         // alert("Name is color");
+        //     }
+        //     if (this.isEdit == true) {
+        //         this.myarr[this.indexEdit] = this.formdata;
+        //         this.isEdit = false;
+        //         this.indexEdit = -1;
+        //     } else {
+        //         this.myarr.push(this.formdata);
+        //     }
+        //     this.formdata = {
+        //         id: 0,
+        //         pname: "",
+        //         price: "",
+        //         category: "",
+        //         color: "",
+        //         image: "",
+        //     }
+        //     console.log("Formdata is :", this.myarr);
+        // },
         deleteIndex(index) {
             this.myarr.splice(index, 1);
         },
