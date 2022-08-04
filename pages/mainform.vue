@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
 <div class=" grid gap-x-7  grid-cols-3 h-screen">
     <div class="border-solid border-2 border-black drop-shadow-md bg-gray-300">
         <form>
@@ -81,4 +81,4 @@ export default {
         }
     }
 }
-</script>
+</script> -->

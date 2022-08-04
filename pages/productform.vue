@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
 <div>
     <title>
         Productlist Project
@@ -52,7 +52,7 @@
             <label class="font-bold text-xl mr-16" for="searchpro">Search Product</label>
             <input @keyup="userFindByAddress(userAddress)" v-model="this.userAddress" class="ml-16 border-2 px-32" type="text" name="searchpro" id="searchpro">
         </div>
-        <!-- 2nd table  -->
+         2nd table  
         <table border="2" class="border-2  bg-gray-100 mr-60 ml-32 p-6 border-solid border-black rounded-md mt-8 ">
             <tr>
                 <td class="border-2  bg-gray-100 p-2 border-solid border-black rounded-md mt-8 font-bold">Product ID</td>
@@ -203,4 +203,4 @@ export default {
        
     }
 }
-</script>
+</script> -->

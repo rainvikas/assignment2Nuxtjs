@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
 <div>
     
     <div class="border-solid border-2 border-black drop-shadow-md ">
@@ -194,4 +194,4 @@ export default {
         }
     }
 }
-</script>
+</script> -->
