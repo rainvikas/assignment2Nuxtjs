@@ -113,17 +113,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/nuxt/dist/pages/runtime/utils.mjs ($id_gPQzqsnHwc)
 // - /node_modules/nuxt/dist/app/components/utils.mjs ($id_acUmhqj8VN)
 // - /pages/assignmentProductCart.vue?macro=true ($id_m28nxfO0z6)
-// - /pages/filterdemo.vue?macro=true ($id_BDLyx9p1Yq)
-// - /pages/frontpage.vue?macro=true ($id_EQeB0x5bvg)
-// - /pages/mainform.vue?macro=true ($id_yh6NonJ3hN)
-// - /pages/mainform2.vue?macro=true ($id_Z2qexUgiKT)
-// - /pages/productform.vue?macro=true ($id_wHo67SzqhQ)
 // - /pages/assignmentProductCart.vue ($id_tZwOQHm0NG)
-// - /pages/filterdemo.vue ($id_AuWXQlmM83)
-// - /pages/frontpage.vue ($id_2bGLzuWFc5)
-// - /pages/mainform.vue ($id_v9Io3fpxg2)
-// - /pages/mainform2.vue ($id_R3lrK1c9Ll)
-// - /pages/productform.vue ($id_YS2Bc3d2xU)
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_6btoGdWLJh)
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_jMbXP0vyaY)
 // - /node_modules/nuxt/dist/app/compat/capi.mjs ($id_DFcXpE295m)
@@ -2681,30 +2671,10 @@ Object.defineProperty(__vite_ssr_exports__, "_wrapIf", { enumerable: true, confi
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_oJCXe6nyyh)
 // Dependencies: 
 // - /pages/assignmentProductCart.vue?macro=true ($id_m28nxfO0z6)
-// - /pages/filterdemo.vue?macro=true ($id_BDLyx9p1Yq)
-// - /pages/frontpage.vue?macro=true ($id_EQeB0x5bvg)
-// - /pages/mainform.vue?macro=true ($id_yh6NonJ3hN)
-// - /pages/mainform2.vue?macro=true ($id_Z2qexUgiKT)
-// - /pages/productform.vue?macro=true ($id_wHo67SzqhQ)
 // - /pages/assignmentProductCart.vue ($id_tZwOQHm0NG)
-// - /pages/filterdemo.vue ($id_AuWXQlmM83)
-// - /pages/frontpage.vue ($id_2bGLzuWFc5)
-// - /pages/mainform.vue ($id_v9Io3fpxg2)
-// - /pages/mainform2.vue ($id_R3lrK1c9Ll)
-// - /pages/productform.vue ($id_YS2Bc3d2xU)
 // --------------------
 const $id_sj5YKYdOdm = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/pages/assignmentProductCart.vue?macro=true");
-
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/pages/filterdemo.vue?macro=true");
-
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/pages/frontpage.vue?macro=true");
-
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/pages/mainform.vue?macro=true");
-
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/pages/mainform2.vue?macro=true");
-
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/pages/productform.vue?macro=true");
 
 __vite_ssr_exports__.default = [
   {
@@ -2715,51 +2685,6 @@ __vite_ssr_exports__.default = [
     meta: __vite_ssr_import_0__.meta,
     alias: __vite_ssr_import_0__.meta?.alias || [],
     component: () => __vite_ssr_dynamic_import__('/pages/assignmentProductCart.vue')
-  },
-  {
-    name: "filterdemo",
-    path: "/filterdemo",
-    file: "C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/pages/filterdemo.vue",
-    children: [],
-    meta: __vite_ssr_import_1__.meta,
-    alias: __vite_ssr_import_1__.meta?.alias || [],
-    component: () => __vite_ssr_dynamic_import__('/pages/filterdemo.vue')
-  },
-  {
-    name: "frontpage",
-    path: "/frontpage",
-    file: "C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/pages/frontpage.vue",
-    children: [],
-    meta: __vite_ssr_import_2__.meta,
-    alias: __vite_ssr_import_2__.meta?.alias || [],
-    component: () => __vite_ssr_dynamic_import__('/pages/frontpage.vue')
-  },
-  {
-    name: "mainform",
-    path: "/mainform",
-    file: "C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/pages/mainform.vue",
-    children: [],
-    meta: __vite_ssr_import_3__.meta,
-    alias: __vite_ssr_import_3__.meta?.alias || [],
-    component: () => __vite_ssr_dynamic_import__('/pages/mainform.vue')
-  },
-  {
-    name: "mainform2",
-    path: "/mainform2",
-    file: "C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/pages/mainform2.vue",
-    children: [],
-    meta: __vite_ssr_import_4__.meta,
-    alias: __vite_ssr_import_4__.meta?.alias || [],
-    component: () => __vite_ssr_dynamic_import__('/pages/mainform2.vue')
-  },
-  {
-    name: "productform",
-    path: "/productform",
-    file: "C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/pages/productform.vue",
-    children: [],
-    meta: __vite_ssr_import_5__.meta,
-    alias: __vite_ssr_import_5__.meta?.alias || [],
-    component: () => __vite_ssr_dynamic_import__('/pages/productform.vue')
   }
 ];
 }
@@ -3095,17 +3020,7 @@ import("file:///C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nux
 // Request: /@id/plugin-vue:export-helper
 // Parents: 
 // - /pages/assignmentProductCart.vue?macro=true ($id_m28nxfO0z6)
-// - /pages/filterdemo.vue?macro=true ($id_BDLyx9p1Yq)
-// - /pages/frontpage.vue?macro=true ($id_EQeB0x5bvg)
-// - /pages/mainform.vue?macro=true ($id_yh6NonJ3hN)
-// - /pages/mainform2.vue?macro=true ($id_Z2qexUgiKT)
-// - /pages/productform.vue?macro=true ($id_wHo67SzqhQ)
 // - /pages/assignmentProductCart.vue ($id_tZwOQHm0NG)
-// - /pages/filterdemo.vue ($id_AuWXQlmM83)
-// - /pages/frontpage.vue ($id_2bGLzuWFc5)
-// - /pages/mainform.vue ($id_v9Io3fpxg2)
-// - /pages/mainform2.vue ($id_R3lrK1c9Ll)
-// - /pages/productform.vue ($id_YS2Bc3d2xU)
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_6btoGdWLJh)
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_jMbXP0vyaY)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_uQ1ND2iuUo)
@@ -3125,151 +3040,6 @@ __vite_ssr_exports__.default = (sfc, props) => {
   return target;
 }
 ;
-}
-
-
-// --------------------
-// Request: /pages/filterdemo.vue?macro=true
-// Parents: 
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/routes.mjs ($id_sj5YKYdOdm)
-// Dependencies: 
-// - /node_modules/vue/dist/vue.cjs.js ($id_YPBhX5dq3F)
-// - /@id/plugin-vue:export-helper ($id_u7hjwQB3Fl)
-// --------------------
-const $id_BDLyx9p1Yq = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const _sfc_main = {}
-
-
-
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
-
-const _sfc_setup = _sfc_main.setup
-_sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_0__.useSSRContext()
-  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/filterdemo.vue")
-  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
-}
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
-
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['__file',"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/pages/filterdemo.vue"]])
-const meta = undefined
-Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
-}
-
-
-// --------------------
-// Request: /pages/frontpage.vue?macro=true
-// Parents: 
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/routes.mjs ($id_sj5YKYdOdm)
-// Dependencies: 
-// - /node_modules/vue/dist/vue.cjs.js ($id_YPBhX5dq3F)
-// - /@id/plugin-vue:export-helper ($id_u7hjwQB3Fl)
-// --------------------
-const $id_EQeB0x5bvg = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const _sfc_main = {}
-
-
-
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
-
-const _sfc_setup = _sfc_main.setup
-_sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_0__.useSSRContext()
-  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/frontpage.vue")
-  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
-}
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
-
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['__file',"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/pages/frontpage.vue"]])
-const meta = undefined
-Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
-}
-
-
-// --------------------
-// Request: /pages/mainform.vue?macro=true
-// Parents: 
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/routes.mjs ($id_sj5YKYdOdm)
-// Dependencies: 
-// - /node_modules/vue/dist/vue.cjs.js ($id_YPBhX5dq3F)
-// - /@id/plugin-vue:export-helper ($id_u7hjwQB3Fl)
-// --------------------
-const $id_yh6NonJ3hN = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const _sfc_main = {}
-
-
-
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
-
-const _sfc_setup = _sfc_main.setup
-_sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_0__.useSSRContext()
-  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/mainform.vue")
-  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
-}
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
-
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['__file',"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/pages/mainform.vue"]])
-const meta = undefined
-Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
-}
-
-
-// --------------------
-// Request: /pages/mainform2.vue?macro=true
-// Parents: 
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/routes.mjs ($id_sj5YKYdOdm)
-// Dependencies: 
-// - /node_modules/vue/dist/vue.cjs.js ($id_YPBhX5dq3F)
-// - /@id/plugin-vue:export-helper ($id_u7hjwQB3Fl)
-// --------------------
-const $id_Z2qexUgiKT = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const _sfc_main = {}
-
-
-
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
-
-const _sfc_setup = _sfc_main.setup
-_sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_0__.useSSRContext()
-  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/mainform2.vue")
-  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
-}
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
-
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['__file',"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/pages/mainform2.vue"]])
-const meta = undefined
-Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
-}
-
-
-// --------------------
-// Request: /pages/productform.vue?macro=true
-// Parents: 
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/routes.mjs ($id_sj5YKYdOdm)
-// Dependencies: 
-// - /node_modules/vue/dist/vue.cjs.js ($id_YPBhX5dq3F)
-// - /@id/plugin-vue:export-helper ($id_u7hjwQB3Fl)
-// --------------------
-const $id_wHo67SzqhQ = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const _sfc_main = {}
-
-
-
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
-
-const _sfc_setup = _sfc_main.setup
-_sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_0__.useSSRContext()
-  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/productform.vue")
-  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
-}
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
-
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['__file',"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/pages/productform.vue"]])
-const meta = undefined
-Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
 
 
@@ -3566,141 +3336,6 @@ _sfc_main.setup = (props, ctx) => {
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
 __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/pages/assignmentProductCart.vue"]]);
-}
-
-
-// --------------------
-// Request: /pages/filterdemo.vue
-// Parents: 
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/routes.mjs ($id_sj5YKYdOdm)
-// Dependencies: 
-// - /node_modules/vue/dist/vue.cjs.js ($id_YPBhX5dq3F)
-// - /@id/plugin-vue:export-helper ($id_u7hjwQB3Fl)
-// --------------------
-const $id_AuWXQlmM83 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const _sfc_main = {}
-
-
-
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
-
-const _sfc_setup = _sfc_main.setup
-_sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_0__.useSSRContext()
-  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/filterdemo.vue")
-  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
-}
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
-
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['__file',"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/pages/filterdemo.vue"]]);
-}
-
-
-// --------------------
-// Request: /pages/frontpage.vue
-// Parents: 
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/routes.mjs ($id_sj5YKYdOdm)
-// Dependencies: 
-// - /node_modules/vue/dist/vue.cjs.js ($id_YPBhX5dq3F)
-// - /@id/plugin-vue:export-helper ($id_u7hjwQB3Fl)
-// --------------------
-const $id_2bGLzuWFc5 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const _sfc_main = {}
-
-
-
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
-
-const _sfc_setup = _sfc_main.setup
-_sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_0__.useSSRContext()
-  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/frontpage.vue")
-  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
-}
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
-
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['__file',"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/pages/frontpage.vue"]]);
-}
-
-
-// --------------------
-// Request: /pages/mainform.vue
-// Parents: 
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/routes.mjs ($id_sj5YKYdOdm)
-// Dependencies: 
-// - /node_modules/vue/dist/vue.cjs.js ($id_YPBhX5dq3F)
-// - /@id/plugin-vue:export-helper ($id_u7hjwQB3Fl)
-// --------------------
-const $id_v9Io3fpxg2 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const _sfc_main = {}
-
-
-
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
-
-const _sfc_setup = _sfc_main.setup
-_sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_0__.useSSRContext()
-  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/mainform.vue")
-  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
-}
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
-
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['__file',"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/pages/mainform.vue"]]);
-}
-
-
-// --------------------
-// Request: /pages/mainform2.vue
-// Parents: 
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/routes.mjs ($id_sj5YKYdOdm)
-// Dependencies: 
-// - /node_modules/vue/dist/vue.cjs.js ($id_YPBhX5dq3F)
-// - /@id/plugin-vue:export-helper ($id_u7hjwQB3Fl)
-// --------------------
-const $id_R3lrK1c9Ll = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const _sfc_main = {}
-
-
-
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
-
-const _sfc_setup = _sfc_main.setup
-_sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_0__.useSSRContext()
-  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/mainform2.vue")
-  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
-}
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
-
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['__file',"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/pages/mainform2.vue"]]);
-}
-
-
-// --------------------
-// Request: /pages/productform.vue
-// Parents: 
-// - /@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/routes.mjs ($id_sj5YKYdOdm)
-// Dependencies: 
-// - /node_modules/vue/dist/vue.cjs.js ($id_YPBhX5dq3F)
-// - /@id/plugin-vue:export-helper ($id_u7hjwQB3Fl)
-// --------------------
-const $id_YS2Bc3d2xU = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const _sfc_main = {}
-
-
-
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
-
-const _sfc_setup = _sfc_main.setup
-_sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_0__.useSSRContext()
-  ;(ssrContext.modules || (ssrContext.modules = new Set())).add("pages/productform.vue")
-  return _sfc_setup ? _sfc_setup(props, ctx) : undefined
-}
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
-
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['__file',"C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/pages/productform.vue"]]);
 }
 
 
@@ -4649,17 +4284,7 @@ const __modules__ = {
   "/pages/assignmentProductCart.vue?macro=true": $id_m28nxfO0z6,
   "/node_modules/vue/server-renderer/index.js": $id_shX6HK8fbb,
   "/@id/plugin-vue:export-helper": $id_u7hjwQB3Fl,
-  "/pages/filterdemo.vue?macro=true": $id_BDLyx9p1Yq,
-  "/pages/frontpage.vue?macro=true": $id_EQeB0x5bvg,
-  "/pages/mainform.vue?macro=true": $id_yh6NonJ3hN,
-  "/pages/mainform2.vue?macro=true": $id_Z2qexUgiKT,
-  "/pages/productform.vue?macro=true": $id_wHo67SzqhQ,
   "/pages/assignmentProductCart.vue": $id_tZwOQHm0NG,
-  "/pages/filterdemo.vue": $id_AuWXQlmM83,
-  "/pages/frontpage.vue": $id_2bGLzuWFc5,
-  "/pages/mainform.vue": $id_v9Io3fpxg2,
-  "/pages/mainform2.vue": $id_R3lrK1c9Ll,
-  "/pages/productform.vue": $id_YS2Bc3d2xU,
   "/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/router.options.mjs": $id_7lgABHZ489,
   "/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/middleware.mjs": $id_36W6gD7waQ,
   "/@id/virtual:nuxt:C:/Users/vikas.yadav2/Desktop/Product_list/assignment2Nuxtjs/nuxtexam/.nuxt/root-component.mjs": $id_rKNlVuGBFy,
